@@ -1,0 +1,378 @@
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 86px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 86px;
+    transition: .3s;
+    z-index: 999;
+    background: #ffffff;
+}
+
+#contenedor-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+header img {
+    width: 141.21px;
+    height: 37.16px;
+    margin-top: 29.38px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    margin-top: 34px;
+}
+
+nav ul li {
+    margin-right: 27px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.iniciar-sesion {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+#brainbrow h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #3B536D;
+}
+
+#brainbrow p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #747474;
+}
+
+#brainbrow .home-img img {
+    width: 584.71px;
+    height: 538.06px;
+    margin-top: 0;
+    padding: 32.93px 0;
+}
+
+#brainbrow .contenido {
+    display: flex;
+    justify-content: space-around;
+}
+
+#brainbrow .home-texto h1 {
+    margin-top: 0px;
+    margin-bottom: 13.87px;
+    margin-left: 100px;
+    margin-right: 144px;
+}
+
+#brainbrow .home-texto p {
+    margin-left: 100px;
+    margin-right: 45.8px;
+}
+
+#brainbrow .home-texto {
+    margin-top: 135px;
+}
+
+#cta {
+    background: #E6E9ED;
+    height: 111.79px;
+}
+
+#cta .sub-menu {
+    padding-top: 46px;
+    padding-bottom: 46px;
+    text-align: center;
+}
+
+#cta a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3B536D !important;
+    margin-right: 46px;  
+}
+
+#control h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #3B536D;
+    text-align: center;
+}
+
+#control .contenedor-control {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#control .item {
+    width: 28%;
+    text-align: center;
+    
+}
+
+#control ul li {
+    list-style: none;
+}
+
+#control ul li:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3B536D;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#control ul li:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3B536D;
+    line-height: 19px;
+}
+
+#control ul li:nth-child(1) {
+    width: 28%;
+    margin: auto;
+    margin-top: 81px;
+    margin-bottom: 35px;
+}
+
+#nuestros-servicios {
+    background: #3B536D;
+    padding-bottom: 93.57px;
+}
+
+#nuestros-servicios h3 {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 60px;
+}
+
+#nuestros-servicios h6 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #89AED6;
+    margin-top: 8px;
+}
+
+.contenedor-nuestros-servicios .servicio-uno {
+    background: rgb(33, 51, 71);
+    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    width: 500px;
+    height: 270px;
+    margin-right: 0;
+
+}
+
+.contenedor-nuestros-servicios .servicio-dos {
+    background: rgb(56 ,96, 132);
+    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    width: 500px;
+    height: 270px;
+
+}
+
+.contenedor-nuestros-servicios .servicio-tres {
+    background: rgb(56 ,96, 132);
+    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    width: 500px;
+    height: 270px;
+
+}
+
+.contenedor-nuestros-servicios .servicio-cuatro {
+    background: rgb(39, 76, 117);
+    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    width: 500px;
+    height: 270px;
+
+}
+
+.contenedor-nuestros-servicios .servicio-cinco {
+    background:  rgb(33, 51, 71);
+    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    width: 500px;
+    height: 270px;
+
+}
+
+.contenedor-nuestros-servicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-nuestros-servicios h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 88px;
+    margin-left: 31px;
+}
+
+.contenedor-nuestros-servicios p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 9px;
+    margin-left: 31px;;
+    margin-right: 248px;
+}
+
+.contenedor-nuestros-servicios a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #489DF8;
+    margin-top: 9px;
+    margin-left: 31px;
+}
+
+.contenedor-nuestros-servicios img {
+    float: right;
+}
+
+.contenedor-nuestros-servicios .servicio-uno img {
+    width: 269px;
+    height: 270px;
+}
+
+.contenedor-nuestros-servicios .servicio-dos img {
+    width: 500px;
+    height: 270px;
+}
+
+.contenedor-nuestros-servicios .servicio-dos h4 {
+    color: #3B536D !important;
+}
+
+.contenedor-nuestros-servicios .servicio-dos p {
+    color: #3B536D !important;
+    margin-top: 155px;
+}
+
+.contenedor-nuestros-servicios .servicio-dos a {
+    margin-top: 215px;
+}
+
+.contenedor-texto {
+    position: relative;
+
+}
+.texto-encima {
+    position: absolute;
+}
+
+.contenedor-nuestros-servicios .servicio-tres img {
+    width: 237px;
+    height: 240px;
+    margin-top: 30px;
+}
+
+.contenedor-nuestros-servicios .servicio-cuatro img {
+    width: 250px;
+    height: 250px;
+    margin-top: 19px;
+}
+
+.contenedor-nuestros-servicios .servicio-cinco img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+footer img {
+    width: 141.21px;
+    height: 37.16px;
+    margin-top: 29.38px;
+    cursor: pointer;
+}
+
+.directorio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#pie .directorio ul {
+    margin-right: 40px;
+}
+
+#pie .directorio ul li {
+    margin-bottom: 9px;
+    list-style: none;
+}
+
+#pie .directorio ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+}
+
+#pie .titulo-lista {
+    font-weight: 700 !important;
+}
+
+#pie .directorio img {
+    margin: 0;
+}
+
+#pie-contacto a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+#pie-contacto .contenedor-a-contacto {
+    margin-left: 126px;
+}
+
+.go4it {
+    margin-left: 742px;
+}
+
+#pie-contacto .borde-padding {
+    border-top: 1px solid;
+    border-color: #707070;
+    padding-top: 20px;
+    padding-bottom: 52px;
+}
+
+
