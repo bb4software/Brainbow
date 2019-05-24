@@ -41,11 +41,10 @@ nav ul {
     display: flex;
     justify-content: space-around;
     margin: 0px;
-    margin-top: 34px;
+    margin-top: 23.38px;
 }
 
 nav ul li {
-    margin-right: 27px;
     list-style: none;
 }
 
@@ -54,12 +53,103 @@ nav ul li a {
     color: #707070;
     font-size: 14px;
     font-weight: 400;
+    display: block;
+    padding: 22px;
+}
+
+nav ul li a:hover {
+    color: #60A1E7;
+    background: #F5F6F7;
+    transition: all .3s;
+}
+
+.submenu-nav {
+    position: absolute;
+    left: 0;
+    top: 63px;
+    background: #F5F6F7;
+    width: 100%;
+    height: 224px;
+    visibility: hidden;
+}
+
+.submenu-nav-empresas {
+    position: absolute;
+    top: 63px;
+    left: 0;
+    background: #F5F6F7;
+    width: 100%;
+    height: 224px;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.submenu-azul {
+   background: #60A1E7;
+   display: flex;
+   position: absolute;
+   justify-content: center;
+   left: 0;
+   width: 100%;
+   margin-top: 200px;
+}
+
+.submenu-azul p {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-right: 11px;
+    
+}
+
+.submenu-azul a {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0;
+    margin-top: 13px;
+    text-decoration: underline;
+}
+
+nav li:hover .submenu-nav-empresas {
+    visibility: visible;
+}
+
+nav li:hover .submenu-nav {
+    visibility: visible;
+}
+
+.item-menu {
+    width: 216.49px;
+    height: 114.62px;
+    background: #ffffff;
+    margin-top: 53.69px;
+    margin-bottom: 53.69px;
+    margin-right: 32.51px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+}
+
+.item-menu p {
+    margin-top: 0;
+}
+
+.item-menu li {
+    margin-right: 0;
+}
+
+.item-menu img {
+    margin-top: 0;
 }
 
 .iniciar-sesion {
     border: 1px solid #707070;
     border-radius: 5px;
     padding: 6px;
+    margin-top: 14px;
 }
 
 #brainbrow h1 {
@@ -120,6 +210,10 @@ nav ul li a {
     font-weight: 500;
     color: #3B536D !important;
     margin-right: 46px;  
+}
+
+#control {
+    padding-bottom: 90.79px;
 }
 
 #control h3 {
@@ -375,4 +469,47 @@ footer img {
     padding-bottom: 52px;
 }
 
+@media screen and (max-width: 800px) {
+    #brainbrow .contenido {
+        flex-direction: column;
+    }
 
+    #brainbrow .home-img img{
+        width: 100%;
+        margin-top: -142px;
+        margin-bottom: -142px;
+    }
+
+    #brainbrow .home-texto h1 {
+        width: 100%;
+        text-align: center;
+        margin-top: -100px;
+        margin-left: 0;
+        line-height: 33px;
+    }
+
+    #brainbrow .home-texto p {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #cta {
+        height: 106.79px;
+    }
+
+    #cta .sub-menu {
+        width: 100%;
+        padding-top: 22px;
+        
+    }
+
+    #cta .sub-menu a {
+        margin-bottom: 16px;
+        margin-right: 15px;
+        font-size: 13px;
+        text-align: left;
+        font-weight: 500;
+
+    }
+}
