@@ -25,6 +25,10 @@ header {
     background: #ffffff;
 }
 
+.menu-icon {
+    display: none;
+}
+
 #contenedor-menu {
     display: flex;
     justify-content: space-around;
@@ -469,6 +473,8 @@ footer img {
     padding-bottom: 52px;
 }
 
+/* Estilos responsive para pantalla 1 iOS y Android*/
+
 @media screen and (max-width: 800px) {
     #brainbrow .contenido {
         flex-direction: column;
@@ -510,6 +516,412 @@ footer img {
         font-size: 13px;
         text-align: left;
         font-weight: 500;
+    }
+
+    #control .contenedor h3 {
+        font-size: 20px;
+        margin-top: 51.07px;
+        padding: 0;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    #control .contenedor-control {
+        flex-direction: column;
+    }
+
+    #control .contenedor-control .item {
+        width: 82%;
+    }
+
+    #control .contenedor-control .item img {
+        width: 150%;
+        margin-top: -45.91px;
+    }
+
+    #nuestros-servicios h3 {
+        font-size: 20px;
+    }
+
+    #nuestros-servicios h6 {
+        visibility: hidden;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios {
+        flex-direction: column;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-uno {
+        width: 100%;
+    }
+
+    .contenedor-nuestros-servicios .servicio-uno img {
+        width: 50%;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-uno h4 {
+        font-size: 17px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-uno p {
+        font-size: 13px;
+        margin-right: 100px;
+    }
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-uno a {
+        font-size: 13px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-dos {
+        width: 100%;
+    }
+
+    .contenedor-nuestros-servicios .servicio-dos img {
+        width: 100%;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-dos h4 {
+        font-size: 17px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-dos p {
+        font-size: 13px;
+        margin-right: 100px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-dos a {
+        font-size: 13px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-tres {
+        width: 100%;
+    }
+
+    .contenedor-nuestros-servicios .servicio-tres img {
+        width: 50%;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-tres h4 {
+        font-size: 17px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-tres p {
+        font-size: 13px;
+        margin-right: 100px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-tres a {
+        font-size: 13px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cuatro {
+        width: 100%;
+    }
+
+    .contenedor-nuestros-servicios .servicio-cuatro img {
+        width: 50%;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cuatro h4 {
+        font-size: 17px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cuatro p {
+        font-size: 13px;
+        margin-right: 100px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cuatro a {
+        font-size: 13px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cinco {
+        width: 100%;
+    }
+
+    .contenedor-nuestros-servicios .servicio-cinco img {
+        width: 50%;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cinco h4 {
+        font-size: 17px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cinco p {
+        font-size: 13px;
+        margin-right: 100px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cinco a {
+        font-size: 13px;
+    }
+
+    footer #pie .contenedor .directorio {
+        justify-content: left;
+    }
+
+    footer #pie .contenedor .directorio ul {
+        margin-left: -36px;
+    }
+
+    footer #pie .contenedor .directorio img {
+        display: none;
+    }
+
+    footer #pie-contacto .contenedor-a-contacto {
+        margin-left: 23px;
+    }
+
+    footer #pie-contacto .contenedor-a-contacto .go4it {
+        float: right;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+        width: 24px;
+        height: 40px;
+        margin-top: 23px;
+    }
+
+    header nav {
+        display: block;
+        position: absolute;
+        top: 86px;
+        left: 0;
+        background: #ffffff;
+        height: 660.77px;
+        width: 100%;
 
     }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        margin-left: -35px;
+    }
+
+    header #contenedor-menu {
+        display: flow-root;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+        color: #3B536D !important;
+        font-weight: 700;
+        padding: 0;
+        padding-left: 20px;
+        margin-bottom: 16px;
+    }
+
+    header .iniciar-sesion {
+        width: 143px;
+    }
+
+    header .submenu-nav {
+        visibility: visible;
+        background: none;
+    }
+
+    header .submenu-nav img {
+        display: none;
+    }
+
+    header .submenu-nav .item-menu {
+        background: none;
+        text-align: left;
+        margin: 0;
+    }
+
+    header .submenu-nav .item-menu p {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #707070;
+        font-weight: 400;
+        padding-bottom: 0;
+    }
+
+    header .submenu-nav .item-menu br {
+        display: none;
+    }
+
+    header .fondo-menu {
+        background: #ffffff;
+        width: 100%;
+        height: 233px;
+    }
+
+    header .submenu-nav-empresas {
+        visibility: visible;
+        background: none;
+        height: 0px;
+        top: 174px;
+    }
+
+    header .submenu-nav-empresas img {
+        display: none;
+    }
+
+    header .submenu-nav-empresas .item-menu {
+        background: none;
+        text-align: left;
+        margin: 0;
+        height: 36px;
+    }
+
+    header .submenu-nav-empresas .item-menu p {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #707070;
+        font-weight: 400;
+        padding-bottom: 0;
+        margin-top: 190px;
+    }
+    header .submenu-nav-empresas .item-menu br {
+        display: none;
+    }
+
+    header .fondo-menu-empresa {
+        background: #ffffff;
+        width: 100%;
+        height: 95px;
+    }
+
+    header .submenu-azul {
+        display: none;
+    }
+
+    header .iniciar-sesion {
+        margin-left: 18px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    header .borde {
+        border-top: 1px solid;
+        color: #707070;
+    }
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    
+    #brainbrow .home-texto {
+        margin-left: 138px;
+        margin-right: 138px;
+    }
+
+    #brainbrow .home-texto h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    #brainbrow .home-img {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #brainbrow .home-img img {
+        width: 70%;
+    }
+
+    #cta .sub-menu {
+        padding-top: 35px;
+    }
+
+    #control .contenedor h3 {
+        font-size: 35px;
+    }
+
+    #control .contenedor .contenedor-control {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: inherit;
+    }
+
+    #nuestros-servicios h3 {
+        font-size: 35px;
+    }
+
+    #nuestros-servicios h6 {
+        font-size: 16px;
+        visibility: visible;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-uno h4 {
+        font-size: 29px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-uno p {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-uno a {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-dos h4 {
+        font-size: 29px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-dos p {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-dos a {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-tres h4 {
+        font-size: 29px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-tres p {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-tres a {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cuatro h4 {
+        font-size: 29px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cuatro p {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cuatro a {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cinco h4 {
+        font-size: 29px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cinco p {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios .contenedor-nuestros-servicios .servicio-cinco a {
+        font-size: 16px;
+    }
+
+
 }
