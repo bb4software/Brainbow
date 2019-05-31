@@ -926,6 +926,20 @@ footer img {
         font-size: 16px;
     }
 
+    footer #pie .contenedor .directorio {
+        justify-content: left;
+        margin-left: 75px;
+        margin-right: 224px;
+    }
+
+    footer #pie-contacto .contenedor-a-contacto {
+        margin-left: 117px;
+    }
+
+    footer #pie-contacto .contenedor-a-contacto .go4it {
+        float: right;
+        margin-right: 80px;
+    }
 
 }
 
@@ -1158,8 +1172,6 @@ footer img {
     height: 346px;
 }
 
-
-
 #nuestros-servicios-p2 .contenido-txt-p{
     margin-top: 101px;
     margin-bottom: 0;
@@ -1325,6 +1337,132 @@ footer img {
     #nuestros-servicios-p2 .contenido-txt-p, .contenido-btn {
         display: none;
     }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+
+    #acercade .home-texto h1 {
+        margin-left: -77px;
+    }
+
+    #acercade .home-texto p {
+        display: block;
+        text-align: center;
+        margin-left: 6px;
+        margin-right: 91px;
+    }
+
+    #acercade .home-img {
+        margin-left: 85px;
+    }
+
+    #cta-acercade {
+        height: 98px;
+        padding-top: 15px;
+    }
+
+    #cta-acercade .logos-enlaces .tec {
+        display: inherit;
+    }
+
+    #cta-acercade .logos-enlaces {
+        height: 98px;
+    }
+
+    #cta-acercade .logos-enlaces img {
+        margin-right: 36px;
+        width: 10%;
+    }
+
+    #q-brainbrown {
+        height: 522px;
+    }
+
+    #q-brainbrown .contenido .acercade-txt h1 {
+        font-size: 35px;
+        margin-left: 100px;
+        margin-right: 0;
+    }
+
+    #q-brainbrown .contenido .acercade-txt p {
+        width: 433px;
+        height: 121px;
+        margin-left: 138px;
+        margin-right: 0;
+    }
+
+    #q-brainbrown .contenido .acercade-img {
+        margin-left: 225px;
+    }
+
+    #q-brainbrown .contenido .acercade-img img {
+        margin-top: 55px;
+        width: 80%;
+    }
+
+    #asi-funciona h2 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    #asi-funciona .contenido-asi-funciona {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 47px;
+        margin-right: 47px;
+    }
+
+    #nuestros-servicios-p2 {
+        height: 2300px;
+    }
+
+    #nuestros-servicios-p2 .contenedor h2 {
+        display: block;
+        padding: 0;
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    #nuestros-servicios-p2 .item-nuestros-servicios {
+        width: 535px;
+        height: 571px;
+        margin: 0;
+        margin-left: -20px;
+        margin-bottom: 48px;
+    }
+
+    #nuestros-servicios-p2 .item-nuestros-servicios p {
+        font-size: 16px;
+    }
+
+    #nuestros-servicios-p2 .item-nuestros-servicios a {
+        width: 209px;
+        padding: 13px 0;
+        margin-left: 163px;
+    }
+
+    #nuestros-servicios-p2 .item-nuestros-servicios img {
+        width: 345px;
+        height: 370px;
+    }
+
+    #nuestros-servicios-p2 .contenido-txt-p {
+        display: block;
+        margin: 0;
+        margin-top: 52px;
+        margin-left: 155px;
+    }
+
+    #nuestros-servicios-p2 .contenido-btn {
+        display: block;
+        margin: 0;
+    }
+
+    #nuestros-servicios-p2 .contenido-btn a {
+        margin-top: 0;
+        margin-right: 225px;
+    }
+
 }
 
 
