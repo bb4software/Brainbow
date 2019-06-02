@@ -961,7 +961,7 @@ footer img {
     font-weight: 700;
 }
 
-#acercade .home-texto span {
+span {
     color: #6CBB8E;
 }
 
@@ -1162,7 +1162,7 @@ footer img {
     background: #6CBB8E;
     border: 1px solid #6CBB8E;
     border-radius: 5px;
-    padding: 13px 37px;
+    padding: 13px 30px;
     margin-left: 68px;
     margin-right: 68px;
 }
@@ -1464,6 +1464,232 @@ footer img {
     }
 
 }
+
+/* Estilos valuar-inmueble */
+
+#valoriza-un-inmueble {
+    background-image: url(../recursos/valuar-inmueble/portada-casa.svg);
+    width: 1280px;
+    height: 532px;
+    text-align: center;
+}
+
+#valoriza-un-inmueble h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 42px;
+    margin-left: 220px;
+    margin-right: 220px;
+    color: #3B536D;
+}
+
+input[type=text] {
+    width: 30%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    border: none;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 12px;
+}
+
+input[type=submit] {
+    background-color: #6CBB8E;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #6CBB8E;
+    border-radius: 4px;
+    padding: 12px 70px;
+}
+
+#cta-valuar-inmueble {
+    background: #E6E9ED;
+    height: 277px;
+}
+
+#cta-valuar-inmueble {
+    text-align: center;
+}
+
+#cta-valuar-inmueble a {
+    margin-right: 48px;
+}
+
+#cta-valuar-inmueble img {
+    margin-top: 11px;
+}
+
+#brindamos-4 {
+    background: #3B536D;
+    height: 806px;
+}
+#brindamos-4 h2 {
+    margin-bottom: 57px;
+}
+
+.contenido-brindamos-4 {
+    background: #FFFFFF;
+    width: 1080px;
+    height: 372px;
+    position: absolute;
+    margin-top: -75px;
+    box-shadow: 0 5px 9px 0 rgba(60, 83, 108, .9);
+    margin-left: 36px;
+    margin-right: -36px;
+}
+
+.contenedor-item-brindamos-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.contenedor-item-brindamos-4 .item-brindamos-4 {
+    width: 25%;
+    text-align: center;
+}
+
+.contenedor-item-brindamos-4 img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 13px;
+}
+
+
+.item-brindamos-4 ul li {
+    list-style: none;
+}
+
+.item-brindamos-4 ul li:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #6CBB8E;
+}
+
+.item-brindamos-4 ul li:nth-child(3) {
+    font-weight: 400;
+    color: #747474;
+    margin-top: 21px;
+}
+
+#brindamos-4 h3 {
+    margin-top: 0;
+    padding-top: 362px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contenedor-como-valor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contenedor-como-valor .item-como-valor {
+    width: 30%;
+    text-align: center;
+}
+
+.contenedor-como-valor img {
+    width: 166px;
+    height: 90px;
+}
+
+.item-como-valor ul li {
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.item-como-valor ul li:nth-child(2) {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.item-como-valor ul li:nth-child(3) {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+#para-que-sirve h2 {
+    margin-top: 58px;
+    margin-bottom: 53px;
+}
+
+.contenedor-para-que-sirve {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.item-para-que-sirve {
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 285px;
+    height: 236px;
+}
+
+.item-para-que-sirve img {
+    width: 60px;
+    height: 54px;
+}
+
+.item-para-que-sirve ul {
+    padding: 0;
+    margin-left: 15px;
+}
+
+
+.item-para-que-sirve ul li {
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+
+.item-para-que-sirve ul li:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3B536D;
+}
+
+.item-para-que-sirve ul li:nth-child(3) {
+    color: #747474;
+    width: 254px;
+}
+
+#valuar-un-inmueble {
+    background: #E6E9ED;
+    height: 238px;
+    text-align: center;
+}
+
+#valuar-un-inmueble h2 {
+    padding-top: 63px;
+}
+
+#valuar-un-inmueble input[type=text] {
+    background: #E6E9ED;
+ }
+
+
+
+
+
+
+
+
+
 
 
 
