@@ -1500,7 +1500,7 @@ input[type=submit] {
     font-weight: 700;
     border: 1px solid #6CBB8E;
     border-radius: 4px;
-    padding: 12px 70px;
+    padding: 12px 40px;
 }
 
 #cta-valuar-inmueble {
@@ -1524,6 +1524,7 @@ input[type=submit] {
     background: #3B536D;
     height: 806px;
 }
+
 #brindamos-4 h2 {
     margin-bottom: 57px;
 }
@@ -1680,7 +1681,248 @@ input[type=submit] {
 
 #valuar-un-inmueble input[type=text] {
     background: #E6E9ED;
- }
+}
+
+
+@media screen and (max-width: 800px) {
+    #valoriza-un-inmueble .contenido {
+        flex-direction: column;
+    }
+
+    #valoriza-un-inmueble {
+        width: 100%;
+        height: 528px;
+        text-align: center;
+    }
+
+    #valoriza-un-inmueble h1 {
+        font-size: 33px;
+        margin: 0;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    input[type=text] {
+        width: 90%;
+        margin-bottom: 45px;
+    }
+    
+    input[type=submit] {
+        padding: 12px 40px;
+    }
+
+    #cta-valuar-inmueble {
+        width: 100%;
+        height: 202px;
+    }
+
+    #cta-valuar-inmueble .tec {
+        display: none
+    }
+
+    #cta-valuar-inmueble .logos-enlaces a {
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    #cta-valuar-inmueble .logos-enlaces img {
+        width: 10%;
+    }
+
+    #brindamos-4 {
+        width: 100%;
+        height: 1274px;
+    }
+
+    #brindamos-4 .contenido-brindamos-4 {
+        width: 292px;
+        height: 573px;
+        margin-left: 24px;
+    }
+
+    #brindamos-4 h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+        margin-top: 27px;
+        margin-bottom: 15px;
+    }
+
+    #brindamos-4 .contenedor-item-brindamos-4 {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #brindamos-4 .contenedor-item-brindamos-4 .item-brindamos-4 {
+        width: 243px;
+        height: 105px;
+    }
+
+
+    #brindamos-4 .contenedor-item-brindamos-4 img {
+        width: 19px;
+        height: 19px;
+    }
+
+    #brindamos-4 .contenedor-item-brindamos-4 ul li:nth-child(1) {
+        height: 19px;
+    }
+
+
+    #brindamos-4 .contenedor-item-brindamos-4 ul li:nth-child(2) {
+        font-size: 15px;
+    }
+
+    #brindamos-4 .contenedor-item-brindamos-4 ul li:nth-child(3) {
+        font-size: 13px;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    #brindamos-4 h3 {
+        font-size: 20px;
+        padding-top: 530px;
+    }
+    .contenedor-como-valor {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .contenedor-como-valor .item-como-valor {
+        width: 205px;
+        height: 162px;
+        margin-bottom: 65px;
+    }
+
+    .contenedor-como-valor img {
+        width: 128px;
+        height: 86px;
+    }
+
+    .contenedor-como-valor ul li:nth-child(1) {
+        height: 65px;
+    }
+
+    #para-que-sirve h2 {
+        font-size: 20px;
+        margin: 0;
+        margin-top: 58px;
+        margin-bottom: 20px;
+        margin-left: 61px;
+        margin-right: 61px;
+    }
+
+    .contenedor-para-que-sirve {
+        margin: 0;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    #valuar-un-inmueble {
+        width: 100%;
+        height: 202px;
+    }
+
+    #valuar-un-inmueble h2 {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        padding: 20px 0;
+    }
+
+    input[type=text] {
+        margin-bottom: 20px;
+    }
+
+    #nuestros-servicios-p2 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    #valoriza-un-inmueble {
+        width: 100%;
+        height: 400px;
+    }
+
+    input[type=text] {
+        width: 53%;
+    }
+
+    #brindamos-4 {
+        width: 100%;
+        height: 578px;
+    }
+
+    #brindamos-4 .contenido-brindamos-4 {
+        width: 682px;
+        height: 281px;
+        margin-left: 4px;
+    }
+
+    #brindamos-4 .contenido-brindamos-4 h2 {
+        font-size: 35px;
+    }
+
+    #brindamos-4 .contenedor-item-brindamos-4 {
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #brindamos-4 .contenedor-item-brindamos-4 .item-brindamos-4 {
+        width: 134px;
+        height: 105px;
+    }
+
+    #brindamos-4 .contenedor-item-brindamos-4 .item-brindamos-4 ul {
+        padding: 0;
+        margin: 0;
+        width: 134px;
+        height: 105px;
+    }
+
+    #brindamos-4 h3 {
+        font-size: 25px;
+        padding: 0;
+        padding-top: 250px;
+    }
+
+    .contenedor-como-valor {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .item-como-valor ul li:nth-child(3) {
+        display: none;
+    }
+
+    #para-que-sirve h2 {
+        font-size: 35px;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .contenedor-para-que-sirve {
+        width: 600px;
+        height: 782px;
+        margin-top: 34px;
+    }
+
+    .item-para-que-sirve {
+        margin: 0;
+    }
+
+    #valuar-un-inmueble h2 {
+        font-size: 25px;
+        padding-top: 45px;
+    }
+
+
+
+
+}
 
 
 
