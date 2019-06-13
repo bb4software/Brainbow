@@ -2713,53 +2713,129 @@ input[type=submit] {
     #adecuamos-necesidades .item-reportes-2 a {
         font-size: 18px;
     }
+}
+/* Estilos de hipoteca */
 
-    
+#cumplir-sueños .home-texto {
+    text-align: center;
+    width: 648px;
+    height: 170px;
+    margin-top: 54px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#cumplir-sueños .home-texto h1 {
+    color: #3B536D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 600px;
+}
 
+#cumplir-sueños .btn-azul {
+    background: #4F97E3;
+    color: #FFFFFF;
+    border: 1px solid #4F97E3;
+    border-radius: 4px;
+    width: 223px;
+    height: 20px;
+    margin-right: 20px;
+}
 
+#cumplir-sueños .btn-blanco {
+    background: #FFFFFF;
+    color: #4F97E3;
+    border: 1px solid #4F97E3;
+    border-radius: 4px;
+    width: 223px;
+    height: 20px;
+}
 
+#cumplir-sueños .home-texto a {
+    flex-direction: row;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 13px 43px;
+}
 
+#cumplir-sueños .home-img img {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 900px;
+    height: 370px;
+    margin-top: 25px;
+}
 
+#cta-hipoteca {
+    height: 112px;
+    background: #E6E9ED;
+}
 
+#cta-hipoteca .cta-enlaces {
+    text-align: center;
+    padding-top: 46px;
+}
 
+#cta-hipoteca .cta-enlaces a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3B536D;
+    margin-right: 45px;
+    text-decoration: none;
+}
 
+#elige-meta {
+    height: 460px;
+}
 
+#elige-meta h2 {
+    margin-top: 81px;
+    margin-bottom: 58px;
+}
 
+#elige-meta .items-meta {
+    display: flex;
+    justify-content: center;
+}
 
+#elige-meta .items-meta .item-meta {
+    width: 255px;
+    height: 190px;
+    margin-right: 66px;
+}
 
+#elige-meta .items-meta .item-meta ul {
+    margin: 0;
+    padding: 0;
+}
+#elige-meta .items-meta .item-meta ul li {
+    list-style: none;
+    text-align: center;
+}
 
+#elige-meta .items-meta .item-meta img {
+    width: 85px;
+    height: 52px;  
+}
 
-
-
-
+#elige-meta .items-meta .item-meta ul li:nth-child(1) {
+    margin-bottom: 18px;
 }
 
 
+#elige-meta .items-meta .item-meta ul li:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3B536D;
+    margin-bottom: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#elige-meta .items-meta .item-meta ul li:nth-child(3) {
+    color: #747474;
+}
 
 
 
