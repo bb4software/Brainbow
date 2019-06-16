@@ -124,7 +124,7 @@ nav ul li a.active {
     font-weight: 700;
     margin-top: 13px;
     margin-right: 11px;
-    
+
 }
 
 .submenu-azul a {
@@ -232,7 +232,7 @@ nav li:hover .submenu-nav {
     font-size: 16px;
     font-weight: 500;
     color: #3B536D !important;
-    margin-right: 46px;  
+    margin-right: 46px;
 }
 
 #control {
@@ -255,7 +255,7 @@ nav li:hover .submenu-nav {
 #control .item {
     width: 28%;
     text-align: center;
-    
+
 }
 
 #control ul li {
@@ -495,7 +495,7 @@ footer img {
     padding-bottom: 52px;
 }
 
-/* Estilos responsive para pantalla 1 iOS y Android*/
+/* Estilos responsive para Home iOS y Android */
 
 @media screen and (max-width: 800px) {
     #brainbrow .contenido {
@@ -529,7 +529,6 @@ footer img {
     #cta .sub-menu {
         width: 100%;
         padding-top: 22px;
-        
     }
 
     #cta .sub-menu a {
@@ -827,8 +826,10 @@ footer img {
 
 }
 
+/* Estilos responsive de Home para Tablet */
+
 @media screen and (min-width: 700px) and (max-width: 800px) {
-    
+
     #brainbrow .home-texto {
         margin-left: 138px;
         margin-right: 138px;
@@ -949,6 +950,7 @@ footer img {
 }
 
 /* Acerca de */
+
 #acercade .contenido {
     display: flex;
     justify-content: space-around;
@@ -1212,7 +1214,7 @@ span {
     margin-right: 200px;
 }
 
-/* Estilos responsive para pantalla 2 iOS y Android */
+/* Estilos responsive para Acerca de iOS y Android */
 
 @media screen and (max-width: 800px) {
     #acercade .contenido {
@@ -1224,7 +1226,7 @@ span {
         line-height: 36px;
         text-align: center;
         margin-top: -90px;
-        margin-left: -126px;    
+        margin-left: -126px;
     }
     #acercade .home-texto p {
         display: none;
@@ -1273,17 +1275,16 @@ span {
     #q-brainbrown .acercade-txt h1 {
        font-size: 20px;
        margin-left: -60px;
-    
     }
 
-    #q-brainbrown .acercade-txt p { 
+    #q-brainbrown .acercade-txt p {
        width: 300px;
        height: 160px;
        margin-left: 26px;
        margin-right: 26px;
     }
 
-    #q-brainbrown .acercade-img { 
+    #q-brainbrown .acercade-img {
         margin: 0;
         margin-top: -40px;
         margin-right: 0;
@@ -1319,22 +1320,22 @@ span {
         flex-direction: column;
     }
 
-    #nuestros-servicios-p2 .item-nuestros-servicios { 
+    #nuestros-servicios-p2 .item-nuestros-servicios {
         width: 286px;
         height: 439px;
         margin-bottom: 34px;
         margin-left: -75px;
     }
-    #nuestros-servicios-p2 .item-nuestros-servicios p { 
+    #nuestros-servicios-p2 .item-nuestros-servicios p {
         font-size: 13px;
     }
 
-    #nuestros-servicios-p2 .item-nuestros-servicios a { 
+    #nuestros-servicios-p2 .item-nuestros-servicios a {
         font-size: 15px;
         padding: 13px 18px;
     }
 
-    #nuestros-servicios-p2 .item-nuestros-servicios img { 
+    #nuestros-servicios-p2 .item-nuestros-servicios img {
         width: 265px;
         height: 230px;
     }
@@ -1343,6 +1344,8 @@ span {
         display: none;
     }
 }
+
+/* Estilos responsive de Acerca de para Tablet */
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
 
@@ -1470,7 +1473,7 @@ span {
 
 }
 
-/* Estilos valuar-inmueble */
+/* Valuar-inmueble */
 
 #valoriza-un-inmueble {
     background-image: url(../recursos/valuar-inmueble/portada-casa.svg);
@@ -1688,6 +1691,7 @@ input[type=submit] {
     background: #E6E9ED;
 }
 
+/* Estilos responsive de Valuar-inmueble iOS y Android */
 
 @media screen and (max-width: 800px) {
     #valoriza-un-inmueble .contenido {
@@ -1711,7 +1715,7 @@ input[type=submit] {
         width: 90%;
         margin-bottom: 45px;
     }
-    
+
     input[type=submit] {
         padding: 12px 40px;
     }
@@ -1844,6 +1848,8 @@ input[type=submit] {
     }
 }
 
+/* Estilos responsive de Valuar-inmueble para Tablet */
+
 @media screen and (min-width: 700px) and (max-width: 800px) {
     #valoriza-un-inmueble {
         width: 100%;
@@ -1925,7 +1931,7 @@ input[type=submit] {
     }
 }
 
-/* Estilos de reporte-brainbrow */
+/* Reporte-brainbrow */
 
 #reporte-brainbrow {
     height: 670px;
@@ -2321,6 +2327,8 @@ input[type=submit] {
     margin-left: -1px;
 }
 
+/* Estilos resposive de Reporte-brainbrow para iOS y Android */
+
 @media screen and (max-width: 800px) {
     #reporte-brainbrow .contenido {
         flex-direction: column;
@@ -2392,11 +2400,10 @@ input[type=submit] {
     #indicadores-incluidos .item-indicadores {
         width: 311px;
     }
-    
+
     #indicadores-incluidos .item-indicadores-1 {
         height: 73px;
     }
-
 
     #indicadores-incluidos .item-indicadores-1 ul {
         margin: 0;
@@ -2477,6 +2484,7 @@ input[type=submit] {
     #adecuamos-necesidades .item-reportes-1 ul li:nth-child(3) {
         margin-bottom: 24px;
     }
+
     #adecuamos-necesidades .item-reportes-1 ul li:nth-child(4) {
         margin-bottom: 40px;
     }
@@ -2521,6 +2529,8 @@ input[type=submit] {
     }
 }
 
+/* Estilos responsive de Reporte-brainbrow para Tablet */
+
 @media screen and (min-width: 700px) and (max-width: 800px) {
 
     #reporte-brainbrow {
@@ -2547,6 +2557,7 @@ input[type=submit] {
         margin-left: 120px;
         margin-right: 120px
     }
+
     #reporte-brainbrow .contenedor-items-reporte-brainbrow {
         justify-content: center;
     }
@@ -2559,7 +2570,6 @@ input[type=submit] {
     #reporte-brainbrow ul li {
         font-size: 16px;
     }
-
 
     #reporte-brainbrow input[type=submit] {
         margin-top: 47px;
@@ -2579,7 +2589,7 @@ input[type=submit] {
 
     #indicadores-incluidos .item-indicadores-1 {
         width: 438px;
-        height: 130px; 
+        height: 130px;
     }
 
     #indicadores-incluidos .item-indicadores-1 ul {
@@ -2697,6 +2707,7 @@ input[type=submit] {
     #adecuamos-necesidades .item-reportes-2 ul li:nth-child(8) {
         margin-bottom: 15px;
     }
+
     #adecuamos-necesidades .item-reportes-2 ul li:nth-child(9) {
         margin-bottom: 15px;
     }
@@ -2714,7 +2725,8 @@ input[type=submit] {
         font-size: 18px;
     }
 }
-/* Estilos de hipoteca */
+
+/* Estilos de Hipoteca */
 
 #cumplir-sueños .home-texto {
     text-align: center;
@@ -2818,7 +2830,7 @@ input[type=submit] {
 
 #elige-meta .items-meta .item-meta img {
     width: 85px;
-    height: 52px;  
+    height: 52px;
 }
 
 #elige-meta .items-meta .item-meta ul li:nth-child(1) {
@@ -2837,12 +2849,479 @@ input[type=submit] {
     color: #747474;
 }
 
+#nuestros-servicios-hipoteca {
+  background: #3B536D;
+  height: 1263px;
+  text-align: center;
+}
+
+#nuestros-servicios-hipoteca h2 {
+  padding-top: 60px;
+  margin-bottom: 8px;
+  color: #FFFFFF;
+}
+
+#nuestros-servicios-hipoteca P {
+  color: #89AED6;
+  margin-bottom: 60px;
+}
+
+#nuestros-servicios-hipoteca .items-servicios {
+  display: flex;
+  justify-content: center;
+  margin-left: 54px;
+  flex-wrap: wrap;
+}
+
+#nuestros-servicios-hipoteca .item-servicio {
+  width: 426px;
+  background: #203348;
+  margin-bottom: 43px;
+  margin-right: 54px;
+}
+
+#nuestros-servicios-hipoteca .item-servicio img {
+  width: 170px;
+  height: 122px;
+}
+
+#nuestros-servicios-hipoteca .item-servicio ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  margin-left: 46px;
+  margin-right: 46px;
+}
+
+#nuestros-servicios-hipoteca .item-servicio ul li {
+  list-style: none;
+}
+
+#nuestros-servicios-hipoteca .item-servicio ul li:nth-child(2) {
+  font-size: 25px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+#nuestros-servicios-hipoteca .item-servicio ul li:nth-child(3) {
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  height: 74px;
+}
+
+#nuestros-servicios-hipoteca .item-servicio ul li:nth-child(4) {
+  padding-top: 10px;
+  margin-bottom: 70px;
+}
 
 
+#nuestros-servicios-hipoteca .item-servicio a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #5F9FE5;
+  padding: 11px 24px;
+  border-radius: 4px;
+}
+
+#nuestros-servicios-hipoteca .item-servicio ul li:nth-child(5) {
+  border-top: 1px solid #545E72;
+  margin-left: -46px;
+  margin-right: -46px;
+}
 
 
+#nuestros-servicios-hipoteca .accordin {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 21px;
+  outline: none;
+  background-color: #203348;
+  color: #FFFFFF;
+  border: none;
+  transition: 0.4s;
+  cursor: pointer;
+  width: 100%;
+}
+
+#dudas {
+  background: #E6E9ED;
+  height: 238px;
+}
+
+#dudas .contenido-txt-p h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #3B536D;
+    margin: 0;
+}
+
+#dudas .contenido-txt-p p {
+  color: #707070;
+}
+
+#dudas .contenido-txt-p {
+    margin-top: 72px;
+    margin-bottom: 0;
+    margin-left: 170px;
+    width: 390px;
+    float: left;
+    text-align: center;
+}
+
+#dudas .contenido-btn a {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background: #6CBB8E;
+    padding: 13px 20px;
+    border: 1px solid #5F9FE5;
+    border-radius: 5px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+/* Estilos resposive de Hipoteca para iOS y Android */
+
+@media screen and (max-width: 800px) {
+  #cumplir-sueños .contenido {
+    flex-direction: column;
+  }
+
+  #cumplir-sueños .home-texto {
+    width: 100%;
+    margin: 0;
+  }
+
+  #cumplir-sueños .home-texto h1 {
+    font-size: 30px;
+    width: 277px;
+  }
+
+  #cumplir-sueños .btn-azul {
+    margin: 0;
+    width: 175px;
+    margin-bottom: 11px;
+  }
+
+  #cumplir-sueños .btn-blanco {
+    margin: 0;
+    width: 175px;
+  }
+
+  #cumplir-sueños .home-img img {
+    margin: 0;
+    width: 100%;
+    height: 145px;
+    margin-top: 100px;
+  }
+
+  #cta-hipoteca {
+    height: 93px;
+  }
+
+  #cta-hipoteca .cta-enlaces {
+    text-align: left;
+    padding: 0;
+    padding-top: 25px;
+    margin-left: 32px;
+  }
+
+  #cta-hipoteca .cta-enlaces a {
+    font-size: 13px;
+    margin: 0;
+  }
+  #cta-hipoteca .cta-enlaces a:nth-child(1) {
+    margin-right: 20px;
+  }
+
+  #cta-hipoteca .cta-enlaces a:nth-child(2) {
+    margin-right: 52px;
+  }
+
+  #cta-hipoteca .cta-enlaces a:nth-child(3) {
+    margin-right: 38px;
+  }
+
+  #elige-meta {
+    height: 890px;
+  }
+
+  #elige-meta h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 34px;
+    width: 204px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+  }
+
+  #elige-meta .items-meta {
+    flex-direction: column;
+    margin-left: 70px;
+  }
+
+  #elige-meta .items-meta .item-meta {
+    width: 196px;
+    margin: 0;
+    margin-bottom: 80px;
+  }
+
+  #nuestros-servicios-hipoteca {
+    height: 2227px;
+  }
+
+  #nuestros-servicios-hipoteca h2 {
+    font-size: 20px;
+  }
+
+  #nuestros-servicios-hipoteca P {
+    margin: 0;
+    margin-bottom: 33px;
+  }
+
+  #nuestros-servicios-hipoteca .items-servicios {
+    width: 100%;
+    margin: 0;
+    margin-left: 30px;
+  }
+
+  #nuestros-servicios-hipoteca .item-servicio {
+    width: 285px;
+  }
+
+  #nuestros-servicios-hipoteca .item-servicio ul {
+      margin: 0;
+      margin-left: 13px;
+      margin-right: 13px;
+  }
+
+  #nuestros-servicios-hipoteca .item-servicio ul li:nth-child(3) {
+      width: 192px;
+      height: 99px;
+      margin-left: 33px;
+      margin-right: 33px;
+  }
+
+  #nuestros-servicios-hipoteca .item-servicio ul li:nth-child(5) {
+      margin: 0;
+      margin-left: -13px;
+      margin-right: -13px;
+  }
+
+  #dudas {
+      width: 100%;
+      height: 272px;
+  }
+
+  #dudas .contenido-txt-p {
+      width: 100%;
+      margin: 0;
+      margin-top: 57px;
+      margin-bottom: 20px;
+  }
+
+  #dudas .contenido-txt-p h3 {
+      font-size: 20px;
+  }
+
+  #dudas .contenido-txt-p p {
+      width: 254px;
+      margin-left: 40px;
+  }
+
+  #nuestros-servicios-p2 .contenido-txt-p, .contenido-btn {
+      display: block;
+  }
+
+  #dudas .contenido-btn a {
+      margin: 0;
+      float: none;
+      margin-left: 50px;
+  }
+
+}
+
+/* Estilos resposive de Hipoteca para Tablet */
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+
+    #cumplir-sueños .home-texto h1 {
+        font-size: 40px;
+        width: 495px;
+    }
+
+    #cumplir-sueños .home-texto a {
+        padding: 13px 0px;
+    }
+
+    #cumplir-sueños .btn-azul {
+        width: 328px;
+        margin-right: 20px;
+    }
+
+    #cumplir-sueños .btn-blanco {
+        width: 328px;
+    }
+
+    #cumplir-sueños .home-img img {
+        width: 602px;
+        height: 278px;
+        margin-top: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #cta-hipoteca .cta-enlaces {
+        text-align: center;
+    }
+
+    #elige-meta {
+        height: 370px;
+    }
+
+    #elige-meta h2 {
+        font-size: 35px;
+        width: 584px;
+    }
+
+    #elige-meta .items-meta {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    #nuestros-servicios-hipoteca {
+        height: 2135px;
+    }
+
+    #nuestros-servicios-hipoteca h2 {
+        font-size: 35px;
+    }
+
+    #nuestros-servicios-hipoteca .items-servicios {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    #nuestros-servicios-hipoteca .item-servicio {
+        width: 608px;
+        height: 420px;
+    }
+
+    #nuestros-servicios-hipoteca .item-servicio ul {
+        margin-left: 137px;
+        margin-right: 137px;
+    }
+
+    #nuestros-servicios-hipoteca .item-servicio img {
+        width: 181px;
+        height: 90px;
+        margin-top: 54px;
+    }
+
+    #nuestros-servicios-hipoteca .item-servicio ul li:nth-child(3) {
+        width: 333px;
+        height: 74px;
+        margin: 0;
+    }
+
+    #nuestros-servicios-hipoteca .item-servicio ul li:nth-child(4) {
+        margin-bottom: 65px;
+    }
+
+    #nuestros-servicios-hipoteca .item-servicio ul li:nth-child(5) {
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+
+    #dudas {
+        height: 307px;
+    }
+
+    #dudas .contenido-txt-p h3 {
+        font-size: 35px;
+    }
+
+    #dudas .contenido-txt-p p {
+        width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #dudas .contenido-btn a {
+        margin-left: 227px;
+        margin-right: 227px;
+    }
+
+}
+
+/* Estilos de Rent Score */
+
+#nueva-forma .contenido {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nueva-forma .home-texto {
+    margin: 0;
+    margin-top: 228px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#nueva-forma .home-texto h1 {
+    color: #3B536D;
+
+}
+
+#nueva-forma input[type=submit] { 
+    background: #4F97E3;
+    padding: 12px 17px;
+}
 
 
+#nueva-forma .home-img img {
+    width: 666px;
+    height: 683px;
+}
 
+#nueva-forma .p-izquierda p {
+    color: #5F9FE5;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#nueva-forma .p-izquierda h2 {
+    text-align: left;
+    margin: 0;
+    width: 412px;
+}
+
+#nueva-forma .p-derecha {
+    margin-top: -100px;
+    margin-right: 72px;
+    float: right;
+}
+
+#nueva-forma .p-derecha p {
+    color: #747474;
+    width: 519px;
+}
+
+#nueva-forma
+
+#nueva-forma
+
+#nueva-forma
+
+
+//TODO: Avanzar a siguiente seccion.
 
 
