@@ -1341,7 +1341,7 @@ span {
     }
 
     #nuestros-servicios-p2 .contenido-txt-p, .contenido-btn {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -1455,14 +1455,14 @@ span {
     }
 
     #nuestros-servicios-p2 .contenido-txt-p {
-        display: block;
+        display: block !important;
         margin: 0;
         margin-top: 52px;
         margin-left: 155px;
     }
 
     #nuestros-servicios-p2 .contenido-btn {
-        display: block;
+        display: block !important;
         margin: 0;
     }
 
@@ -2047,6 +2047,7 @@ input[type=submit] {
 
 #indicadores-incluidos .item-indicadores ul li:nth-child(1) {
     margin-bottom: 17px;
+    margin-left: -245px;
 }
 
 #indicadores-incluidos .item-indicadores ul li:nth-child(2) {
@@ -2726,7 +2727,7 @@ input[type=submit] {
     }
 }
 
-/* Estilos de Hipoteca */
+/* Hipoteca */
 
 #cumplir-sueños .home-texto {
     text-align: center;
@@ -3262,7 +3263,11 @@ input[type=submit] {
 
 }
 
-/* Estilos de Rent Score */
+/* Rent Score */
+
+#nueva-forma {
+    height: 932px;
+}
 
 #nueva-forma .contenido {
     display: flex;
@@ -3315,13 +3320,764 @@ input[type=submit] {
     width: 519px;
 }
 
-#nueva-forma
+#incluye {
+    height: 617px;
+    background: #E6E9ED;
+}
 
-#nueva-forma
+#incluye .items-incluye {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 48px;
+}
 
-#nueva-forma
+#incluye .item-incluye-1 {
+    border: 1px solid #E8E8E8;
+    width: 342px;
+    height: 236px;
+}
+
+#incluye .item-incluye-1 ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 48px;
+    margin-right: 91px;
+}
+
+#incluye .item-incluye-1 ul li {
+    list-style: none;
+    font-size: 35px;
+    font-weight: 500;
+    color: #3B536D;
+}
+
+#incluye .item-incluye {
+    width: 342px;
+    height: 236px;
+    border: 1px solid #E6E9ED;
+    background: #FFFFFF;
+}
+
+#incluye .item-incluye ul {
+    padding: 0;
+    margin-top: 40px;
+}
+
+#incluye .item-incluye ul li {
+    list-style: none;
+    text-align: center;
+}
+
+#incluye .item-incluye img {
+    width: 50px;
+    height: 50px;
+}
+
+#incluye .item-incluye ul li:nth-child(1) {
+    margin-bottom: 17px;
+}
+
+#incluye .item-incluye ul li:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3B536D;
+    margin-bottom: 12px;
+}
+
+#incluye .item-incluye ul li:nth-child(3) {
+    color: #747474;
+}
+
+#incluye .contenedor .t-margen img {
+    width: 133px;
+    height: 50px;
+    margin-top: -33px;
+    margin-left: 247px;
+}
+
+#funcion-rent {
+    height: 1275px;
+}
+
+#funcion-rent h2 {
+    margin-top: 100px;
+}
+
+#funcion-rent .items-funcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+#funcion-rent .item-funcion {
+    width: 254px;
+    height: 171px;
+    text-align: center;
+    margin-right: 68px;
+    margin-bottom: 75px;
+}
+
+#funcion-rent .item-funcion img {
+    width: 50px;
+    height: 50px;
+}
+
+#funcion-rent .item-funcion ul {
+    padding: 0;
+    margin: 0;
+}
+
+#funcion-rent .item-funcion ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#funcion-rent .item-funcion ul li:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3B536D;
+}
+
+#funcion-rent .item-funcion ul li:nth-child(3) {
+    color: #747474;
+}
+
+#funcion-rent p {
+    text-align: center;
+    color: #747474;
+    width: 777px;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#funcion-rent .contenedor-creditos {
+    display: flex;
+    justify-content: center;
+    width: 834px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#funcion-rent .contenedor-creditos ul {
+    margin: 0;
+    padding: 0;
+}
+
+#funcion-rent .contenedor-creditos ul li {
+    list-style: none;
+    margin-bottom: 6px;
+    color: #3B536D;
+
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-1 ul li {
+    width: 104px;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-1 ul li:nth-child(1) { 
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-1 ul li:nth-child(2) { 
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-1 ul li:nth-child(3) {
+    height: 33px;
+    background: #4B4A4A;
+} 
+
+#funcion-rent .contenedor-creditos .item-creditos-2 ul li {
+    width: 176px;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-2 ul li:nth-child(1) {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-2 ul li:nth-child(2) { 
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-2 ul li:nth-child(3) {
+    height: 33px;
+    background: #24A1E9;
+} 
 
 
-//TODO: Avanzar a siguiente seccion.
+#funcion-rent .contenedor-creditos .item-creditos-3 ul li {
+    width: 329px;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-3 ul li:nth-child(1) {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-3 ul li:nth-child(2) { 
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-3 ul li:nth-child(3) {
+    height: 33px;
+    background: #7FD0C3;
+} 
+
+#funcion-rent .contenedor-creditos .item-creditos-4 ul li {
+    width: 329px;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-4 ul li:nth-child(1) {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-4 ul li:nth-child(2) { 
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#funcion-rent .contenedor-creditos .item-creditos-4 ul li:nth-child(3) {
+    height: 33px;
+    background: #3B536D;
+} 
+
+#funcion-rent .contenedor-puntaje {
+    display: flex;
+    justify-content: center;
+    width: 611px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#funcion-rent .contenedor-puntaje ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 21px;
+}
+#funcion-rent .contenedor-puntaje ul li {
+    list-style: none;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 9px;
+}
+#funcion-rent .contenedor-puntaje .item-puntaje-1 {
+    width: 174px;
+    height: 123px;
+    background: #4B4A4A;
+    margin-right: 45px;
+}
+
+
+#funcion-rent .contenedor-puntaje .item-puntaje-1 ul li:nth-child(1) {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#funcion-rent .contenedor-puntaje .item-puntaje-1 ul li:nth-child(2) {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#funcion-rent .contenedor-puntaje .item-puntaje-2 {
+    width: 174px;
+    height: 123px;
+    background: #24A1E9;
+    margin-right: 45px;
+}
+
+#funcion-rent .contenedor-puntaje .item-puntaje-2 ul li:nth-child(1) {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#funcion-rent .contenedor-puntaje .item-puntaje-2 ul li:nth-child(2) {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#funcion-rent .contenedor-puntaje .item-puntaje-3 {
+    width: 174px;
+    height: 123px;
+    background: #7FD0C3;
+}
+
+#funcion-rent .contenedor-puntaje .item-puntaje-3 ul li:nth-child(1) {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#funcion-rent .contenedor-puntaje .item-puntaje-3 ul li:nth-child(2) {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#funcion-rent .p-reducido p {
+    width: 688px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#comienza-rentar {
+    height: 478px;
+    background: #3B536D;
+    overflow: hidden;
+}
+
+#comienza-rentar .contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+#comienza-rentar .home-texto {
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#comienza-rentar .home-texto h2 {
+    width: 335px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+#comienza-rentar input[type=submit] {
+    padding: 12px 25px;
+}
+
+
+#comienza-rentar .home-img img {
+    width: 950px;
+    height: 755px;
+    margin-top: -100px;
+    margin-right: -310px;
+}
+
+/* Estilos resposive de Rent Score para iOS y Android */
+
+@media screen and (max-width: 800px) {
+    #nueva-forma {
+        height: 770px;
+    }
+
+    #nueva-forma .contenido {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #nueva-forma .home-texto {
+        margin: 0;
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+
+    #nueva-forma .home-texto h1 {
+        font-size: 35px;
+    }
+
+    #nueva-forma .home-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    #nueva-forma .home-img img {
+        width: 264px;
+        height: 270px;
+    }
+
+    #nueva-forma .p-izquierda p {
+        font-size: 13px;
+    }
+
+    #nueva-forma .p-izquierda h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #nueva-forma .p-derecha {
+        margin: 0;
+        width: 100%;
+    }
+
+    #nueva-forma .p-derecha p {
+        width: 311px;
+    }
+
+    #incluye {
+        height: 1326px;
+    }
+
+    #incluye .contenedor .t-margen img {
+        margin-left: 100px;
+    }
+    #incluye .items-incluye {
+        padding-top: 20px;
+    }
+
+    #incluye .item-incluye-1 {
+        width: 325px;
+        height: 75px;
+    }
+
+    #incluye .item-incluye-1 ul {
+        margin: 0;
+        padding: 0;
+        margin-left: 41px;
+        margin-right: 41px;
+    }
+
+    #incluye .item-incluye-1 ul li {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #incluye .item-incluye {
+        width: 325px;
+    }
+
+    #funcion-rent {
+        height: 2050px;
+    }
+
+    #funcion-rent h2 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 56px;
+    }
+
+    #funcion-rent .item-funcion {
+        width: 210px;
+        margin-right: 0;
+    }
+
+    #funcion-rent p {
+        width: 100%;
+    }
+
+    #funcion-rent .contenedor-creditos {
+        flex-direction: column;
+    }
+
+    #funcion-rent .puntaje h2 {
+        font-size: 20px;
+    }
+
+    #funcion-rent .p-reducido p {
+        width: 100%;
+    }
+
+    #funcion-rent .contenedor-puntaje {
+        width: 100%;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-1 {
+        margin-right: 0;
+        width: 105px;
+        height: 74px;
+    }
+
+    #funcion-rent .contenedor-puntaje ul {
+        margin-top: 12px;
+    }
+
+    #funcion-rent .contenedor-puntaje ul li {
+        margin-bottom: 0;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-1 ul li:nth-child(1) {
+        font-size: 20px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-1 ul li:nth-child(2) {
+        font-size: 14px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-2 {
+        margin-right: 0;
+        width: 105px;
+        height: 74px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-2 ul li:nth-child(1) {
+        font-size: 20px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-2 ul li:nth-child(2) {
+        font-size: 14px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-3 {
+        width: 105px;
+        height: 74px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-3 ul li:nth-child(1) {
+        font-size: 20px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-3 ul li:nth-child(2) {
+        font-size: 14px;
+    }
+
+    #comienza-rentar {
+        width: 100%;
+        height: 550px;
+    }
+
+    #comienza-rentar .contenedor {
+        flex-direction: column;
+    }
+
+    #comienza-rentar .home-texto {
+        margin: 0;
+    }
+
+    #comienza-rentar .home-texto h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+
+    #comienza-rentar .home-img img {
+        width: 490px;
+        height: 360px;
+        margin: 0;
+        margin-top: 25px;
+        margin-left: -60px;
+        margin-right: -60px;
+    }
+
+}
+
+/* Estilos responsive de Rent Score para Tablet */
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    #nueva-forma {
+        height: 1120px;
+    }
+
+    #nueva-forma .home-texto {
+        width: 495px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #nueva-forma .home-texto h1 {
+        font-size: 40px;
+    }
+
+    #nueva-forma .home-img img {
+        width: 100%;
+        height: 550px;
+    }
+
+    #nueva-forma .p-izquierda p {
+        font-size: 16px;
+    }
+
+    #nueva-forma .p-izquierda h2 {
+        font-size: 35px;
+        width: 412px;
+    }
+
+    #nueva-forma .p-derecha p {
+        width: 100%;
+    }
+
+    #incluye {
+        height: 966px;
+    }
+
+    #incluye .contenedor .t-margen img {
+        margin-left: 280px;
+    }
+
+    #incluye .item-incluye-1 {
+        width: 684px;
+        height: 137px;
+    }
+
+    #incluye .item-incluye-1 ul li {
+        font-size: 35px;
+    }
+
+    #incluye .item-incluye {
+        width: 342px;
+    }
+
+    #funcion-rent {
+        height: 1171px;
+    }
+
+    #funcion-rent h2 {
+        font-size: 35px;
+    }
+
+    #funcion-rent p {
+        width: 583px;
+    }
+
+    #funcion-rent .contenedor-creditos {
+        flex-direction: row;
+        width: 681px;
+        margin-left: 47px;
+        margin-right: 47px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-1 {
+        width: 75px;
+    }
+
+
+    #funcion-rent .contenedor-creditos .item-creditos-1 ul li:nth-child(1) {
+        font-size: 17px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-1 ul li:nth-child(2) {
+        font-size: 8px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-1 ul li:nth-child(3) {
+        width: 75px;
+        height: 23px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-2 {
+        width: 123px;
+    }
+
+
+    #funcion-rent .contenedor-creditos .item-creditos-2 ul li:nth-child(1) {
+        font-size: 17px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-2 ul li:nth-child(2) {
+        font-size: 8px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-2 ul li:nth-child(3) {
+        width: 123px;
+        height: 23px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-3 {
+        width: 239px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-3 ul li:nth-child(1) {
+        font-size: 17px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-3 ul li:nth-child(2) {
+        font-size: 8px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-3 ul li:nth-child(3) {
+        width: 239px;
+        height: 23px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-4 ul li:nth-child(1) {
+        font-size: 17px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-4 ul li:nth-child(2) {
+        font-size: 8px;
+    }
+
+    #funcion-rent .contenedor-creditos .item-creditos-4 ul li:nth-child(3) {
+        width: 239px;
+        height: 23px;
+    }
+
+    #funcion-rent .puntaje h2 {
+        font-size: 35px;
+    }
+
+    #funcion-rent .contenedor-puntaje ul {
+        margin-top: 21px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-1 {
+        width: 174px;
+        height: 123px;
+        margin-right: 45px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-1 ul li:nth-child(1) {
+        font-size: 35px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-1 ul li:nth-child(2) {
+        font-size: 25px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-2 {
+        width: 174px;
+        height: 123px;
+        margin-right: 45px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-2 ul li:nth-child(1) {
+        font-size: 35px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-2 ul li:nth-child(2) {
+        font-size: 25px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-3 {
+        width: 174px;
+        height: 123px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-3 ul li:nth-child(1) {
+        font-size: 35px;
+    }
+
+    #funcion-rent .contenedor-puntaje .item-puntaje-3 ul li:nth-child(2) {
+        font-size: 25px;
+    }
+
+    #comienza-rentar {
+        height: 750px;
+    }
+
+    #comienza-rentar .home-texto {
+        width: 338px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #comienza-rentar .home-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #comienza-rentar .home-img img {
+        width: 700px;
+        height: 550px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
 
 
