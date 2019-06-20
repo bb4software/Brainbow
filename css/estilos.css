@@ -4075,7 +4075,196 @@ input[type=submit] {
     }
 }
 
+/* Sector inmobiliario */
 
+#sector-inmobiliario {
+    background-image: url(../recursos/sector-inmobiliario/sector-inmobiliario.jpg);
+    height: 392px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#sector-inmobiliario .home-texto h1 {
+    margin: 0;
+    padding-top: 105px;
+}
+
+#sector-inmobiliario .home-texto p {
+    margin: 0;
+    font-size: 20px;
+}
+
+#sector-inmobiliario .home-texto a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #6CBB8E;
+    padding: 13px 9px;
+    width: 209px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#porque-brainbrow .items-porque {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 83px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+#porque-brainbrow .item-porque-1 {
+    width: 231px;
+    height: 207px;
+    margin-right: 43px;
+}
+
+#porque-brainbrow .item-porque-1 ul {
+    padding: 0;
+    margin: 0;
+}
+
+#porque-brainbrow .item-porque-1 ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+#porque-brainbrow .item-porque-1 ul li:nth-child(1) {
+    font-size: 35px;
+    font-weight: 500;
+    color: #3B536D;
+}
+
+#porque-brainbrow .item-porque-1 ul li:nth-child(2) {
+    color: #747474;
+}
+
+#porque-brainbrow .item-porque {
+    width: 231px;
+    height: 207px;
+    margin-bottom: 50px;
+    margin-right: 43px;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+}
+
+#porque-brainbrow .item-porque ul {
+    padding: 0;
+    margin: 0;
+    margin: 20px;
+}
+
+#porque-brainbrow .item-porque ul li {
+    list-style: none;
+}
+
+#porque-brainbrow .item-porque ul li img {
+    width: 56px;
+    height: 47px;
+}
+
+#porque-brainbrow .item-porque ul li:nth-child(1) {
+    width: 56px;
+    height: 47px;
+    margin-bottom: 10px;
+}
+
+#porque-brainbrow .item-porque ul li:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3B536D;
+    margin-bottom: 6px;
+}
+
+#porque-brainbrow .item-porque ul li:nth-child(3) {
+    color: #747474;
+}
+
+#descubre {
+    height: 835px;
+    background: #3B536D;
+}
+
+#descubre h2 {
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 82px;
+}
+
+#descubre .items-descubre {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 71px;
+}
+
+#descubre .item-descubre {
+    width: 345px;
+    height: 572px;
+    margin-right: 71px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 5px 9px 0 rgba(51, 71, 70, .9);
+    text-align: center;
+}
+
+#descubre .item-descubre ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 54px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+#descubre .item-descubre ul li {
+    list-style: none;
+}
+
+#descubre .item-descubre ul li:nth-child(1) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #263345;
+    margin-bottom: 15px;
+}
+
+#descubre .item-descubre ul li:nth-child(2) {
+    color: #747474;
+}
+
+#descubre .item-descubre ul li:nth-child(3) {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+#descubre .item-descubre ul li a {
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #6CBB8E;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    width: 209px;
+    padding: 13px;
+}
+
+#descubre .item-descubre ul li:nth-child(4) {
+    margin-left: -34px;
+    margin-top: 4px;
+}
+
+
+
+#descubre .item-descubre ul li img {
+    width: 345px;
+    height: 340px;
+}
 
 
 
