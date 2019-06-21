@@ -3136,10 +3136,10 @@ input[type=submit] {
       width: 254px;
       margin-left: 40px;
   }
-
-  #nuestros-servicios-p2 .contenido-txt-p, .contenido-btn {
-      display: block;
-  }
+  
+  #dudas .contenido-txt-p, .contenido-btn {
+      display: block !important;
+  } 
 
   #dudas .contenido-btn a {
       margin: 0;
@@ -4266,4 +4266,445 @@ input[type=submit] {
     height: 340px;
 }
 
-/* TODO:Seguir con estilos para responsive */
+#descubre .ocultar {
+    display: none;
+}
+
+/* Responsive de Sector Inmobiliario para iOS y Android */
+
+@media screen and (max-width: 800px) {
+    #sector-inmobiliario {
+        width: 100%;
+        height: 262px;
+    }
+
+    #sector-inmobiliario .home-texto h1 {
+        padding-top: 20px;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #sector-inmobiliario .home-texto p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #porque-brainbrow .items-porque {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #porque-brainbrow .item-porque-1 {
+        width: 285px;
+        height: 236px;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #porque-brainbrow .item-porque-1 ul li:nth-child(1) {
+        font-size: 20px;
+    }
+
+    #porque-brainbrow .item-porque {
+        width: 285px;
+        height: 236px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    #descubre {
+        height: 1216px;
+    }
+
+    #descubre .items-descubre {
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    #descubre .item-descubre {
+        width: 286px;
+        height: 440px;
+        margin-right: 0;
+        margin-bottom: 34px;
+    }
+
+    #descubre .item-descubre ul {
+        margin-top: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #descubre .item-descubre ul li img {
+        width: 216px;
+        height: 201px;
+    }
+
+    #descubre .item-descubre ul li:nth-child(3) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #descubre .item-descubre ul li:nth-child(4) {
+        margin-left: 44px;
+    }
+}
+
+/* Responsive de Sector Inmobiliario para Tablet */
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    #sector-inmobiliario {
+        height: 390px;
+    }
+
+    #sector-inmobiliario .home-texto h1 {
+        padding-top: 120px;
+    }
+
+    #sector-inmobiliario .home-texto p {
+        font-size: 20px;
+    }
+
+    #porque-brainbrow .items-porque {
+        margin-left: 35px;
+    }
+
+    #porque-brainbrow .item-porque-1 {
+        text-align: left;
+        margin-right: 30px;
+    }
+
+    #porque-brainbrow .item-porque-1 ul li:nth-child(1) {
+        font-size: 35px;
+    }
+
+    #porque-brainbrow .item-porque-1 ul li:nth-child(2) {
+        width: 228px;
+    }
+
+    #porque-brainbrow .item-porque {
+        margin-right: 30px;
+        margin-bottom: 25px;
+    }
+
+    #descubre {
+        height: 1488px;
+    }
+
+    #descubre h2 {
+        width: 416px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #descubre .items-descubre {
+        margin-left: 80px;
+
+    }
+
+    #descubre .item-descubre {
+        width: 535px;
+        height: 571px;
+    }
+
+    #descubre .item-descubre ul {
+        margin-top: 54px;
+        margin-left: 95px;
+        margin-right: 95px;
+    }
+
+    #descubre .visible {
+        display: none;
+    }
+
+    #descubre .ocultar {
+        display: block;
+    }
+
+    #descubre .item-descubre ul li:nth-child(2) {
+        width: 277px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #descubre .item-descubre ul li:nth-child(3) {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    #descubre .item-descubre ul li:nth-child(4) {
+        margin-top: 3px;
+        margin-left: 0;
+    }
+
+    #descubre .item-descubre ul li img {
+        width: 345px;
+        height: 340px;
+    }
+}
+
+/* Seguros */
+
+#descubre-2 {
+    height: 835px;
+    background: #3B536D;
+}
+
+#descubre-2 h2 {
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 82px;
+}
+
+#descubre-2 .items-descubre {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 71px;
+}
+
+#descubre-2 .item-descubre {
+    width: 345px;
+    height: 572px;
+    margin-right: 71px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 5px 9px 0 rgba(51, 71, 70, .9);
+    text-align: center;
+}
+
+#descubre-2 .item-descubre ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 54px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+#descubre-2 .item-descubre ul li {
+    list-style: none;
+}
+
+#descubre-2 .item-descubre ul li:nth-child(1) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #263345;
+    margin-bottom: 15px;
+}
+
+#descubre-2 .item-descubre ul li:nth-child(2) {
+    color: #747474;
+}
+
+#descubre-2 .item-descubre ul li:nth-child(3) {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+#descubre-2 .item-descubre ul li a {
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #6CBB8E;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    width: 209px;
+    padding: 13px;
+}
+
+#descubre-2 .item-descubre ul li:nth-child(4) {
+    margin-left: -34px;
+    margin-top: 4px;
+}
+
+
+
+#descubre-2 .item-descubre ul li img {
+    width: 345px;
+    height: 340px;
+}
+
+#descubre-2 .marguen {
+    margin-left: 0;
+}
+
+#descubre-2 .ocultar {
+    display: none;
+}
+
+/* Responsive de Seguros para iOS y Android */
+
+@media screen and (max-width: 800px) {
+    #descubre-2 {
+        height: 1700px;
+    }
+
+    #descubre-2 .items-descubre {
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    #descubre-2 .item-descubre {
+        width: 286px;
+        height: 440px;
+        margin-right: 0;
+        margin-bottom: 34px;
+    }
+
+    #descubre-2 .item-descubre ul {
+        margin-top: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #descubre-2 .item-descubre ul li img {
+        width: 216px;
+        height: 201px;
+    }
+
+    #descubre-2 .marguen {
+        margin-left: -50px;
+    }
+
+
+    #descubre-2 .item-descubre ul li:nth-child(3) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #descubre-2 .item-descubre ul li:nth-child(4) {
+        margin-left: 44px;
+
+    }
+
+}
+
+/* Responsive de Seguros para Tablet */
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    #descubre-2 {
+        height: 2100px;
+    }
+
+    #descubre-2 h2 {
+        width: 416px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #descubre-2 .items-descubre {
+        margin-left: 80px;
+    }
+
+    #descubre-2 .item-descubre {
+        width: 535px;
+        height: 571px;
+    }
+
+    #descubre-2 .item-descubre ul {
+        margin-top: 54px;
+        margin-left: 95px;
+        margin-right: 95px;
+    }
+
+    #descubre-2 .visible {
+        display: none;
+    }
+
+    #descubre-2 .ocultar {
+        display: block;
+    }
+
+    #descubre-2 .item-descubre ul li:nth-child(2) {
+        width: 277px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #descubre-2 .item-descubre ul li:nth-child(3) {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    #descubre-2 .item-descubre ul li:nth-child(4) {
+        margin-top: 3px;
+        margin-left: 0;
+    }
+
+    #descubre-2 .item-descubre ul li img {
+        width: 345px;
+        height: 340px;
+    }
+
+    #descubre-2 .marguen {
+        margin-left: 0px;
+    }
+
+}
+
+/* Contacto */
+
+#hablemos {
+    background-image: url(../recursos/contacto/fondo-contacto.svg);
+    height: 720px;
+}
+
+#hablemos .fondo {
+    background: #FFFFFF;
+    height: 233px;
+}
+
+#hablemos h1 {
+    text-align: center;
+    color: #3B536D;
+    margin-bottom: 15px;
+}
+
+#hablemos p {
+    text-align: center;
+    color: #747474;
+    width: 476px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hablemos .contacto {
+    width: 664px;
+    height: 416px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .15);
+}
+
+#hablemos .contacto h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3B536D;
+    padding-top: 33px;
+}
+
+#hablemos .contacto-form {
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 52px;
+    margin-left: 176px;
+    margin-right: 176px;
+}
+
+#hablemos input[type=text] {
+    width: 311px;
+    height: 35px;
+}
+
+#hablemos input[type=submit] {
+    margin-top: 30px;
+}
+
