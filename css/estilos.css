@@ -4886,4 +4886,247 @@ input[type=submit] {
     width: 190px;
 }
 
-/* TODO:Segur con resposive */
+/* Responsive de Centro de Ayuda para iOS y Android */
+
+@media screen and (max-width: 800px) {
+    #ayuda h1 {
+        font-size: 30px;
+    }
+
+    #ayuda p {
+        width: 308px;
+    }
+
+    #soporte {
+        height: 676px;
+    }
+
+    #soporte .items-soporte {
+        flex-direction: column;
+        margin: 0;
+        padding-top: 35px;
+        margin-left: 20px;
+    }
+
+    #soporte .item-soporte {
+        width: 286px;
+        height: 62px;
+        text-align: left;
+    }
+
+    #soporte .item-soporte ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 60px;
+    }
+
+    #soporte .item-soporte ul li {
+        margin-right: 10px;
+    }
+
+    #soporte .contactar-izq {
+        margin: 0;
+        text-align: center;
+    }
+
+    #soporte .contactar-izq h4 {
+        margin-top: 10px;
+    }
+
+    #soporte .contactar-izq p {
+        width: 286px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #soporte .contactar-der {
+        margin: 0;
+    }
+
+    #soporte .contactar-der a {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/* Responsive de Centro de Ayuda para Tablet */
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    #ayuda {
+        height: 150px;
+    }
+
+    #ayuda h1 {
+        font-size: 40px;
+    }
+
+    #ayuda p {
+        width: 476px;
+    }
+
+    #soporte {
+        height: 544px;
+    }
+
+    #soporte .items-soporte {
+        padding-top: 70px;
+        margin-left: 130px;
+        flex-direction: row;
+        justify-content: normal;
+    }
+
+    #soporte .item-soporte {
+        width: 208px;
+        margin-right: 18px;
+        margin-bottom: 18px;
+    }
+
+    #soporte .item-soporte ul {
+        margin: 10px 22px;
+    }
+
+    #soporte .contactar-der a {
+        margin-top: 20px;
+    }
+
+}
+
+/* Ayuda Valor Inmobiliario */
+
+#ayuda-ayuda {
+    height: 487px;
+    text-align: center;
+}
+
+#ayuda-ayuda h1 {
+    color: #3B536D;
+}
+
+#ayuda-ayuda p {
+    color: #747474;
+    width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#soporte-ayuda {
+    background: #3B536D;
+    height: 700px;
+}
+
+#soporte-ayuda .contenedor-info {
+    width: 994px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 79px;
+    margin-right: 79px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .15);
+}
+
+#soporte-ayuda .contenedor-info h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3B536D;
+    margin-top: 66px;
+}
+
+#soporte-ayuda .items-info {
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.accordion {
+    background: #FFFFFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #747474;
+    transition: 0.4s;
+    font-size: 16px;    
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #FFFFFF;
+    color: #747474;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #747474;
+    float: left;
+    margin-left: 5px;
+  }
+
+.items-info .atras {
+    margin-top: 27px;
+    margin-left: 10px;
+}
+
+.items-info .atras a:after {
+    content: '\2039'; /* Unicode character for "plus" sign (+) */
+    font-size: 40px;
+    color: #489DF8;
+    float: left;
+    margin-top: -19px;
+    margin-right: 5px;
+}
+
+.items-info .atras a {
+    display: block;
+    color: #489DF8;
+}
+
+.contactar-izq-ayuda {
+    padding-top: 460px;
+    margin-left: 250px;
+}
+
+.contactar-izq-ayuda h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.contactar-izq-ayuda p {
+    color: #FFFFFF;
+    width: 380px;
+}
+
+.contactar-der-ayuda {
+    margin-top: -70px;
+    margin-left: 720px
+}
+
+.contactar-der-ayuda a {
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    background: #5F9FE5;
+    padding: 13px;
+    width: 190px;
+    border-radius: 4px;
+}
+
+/* TODO:Falta resposive  */
+
+
