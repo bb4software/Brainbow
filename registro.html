@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e168ff9077.js"></script>
 
     <title>Brainbow</title>
 </head>
@@ -51,7 +52,7 @@
                             </ul>
                         </li>
                         <li><a href="acercade.html">Acerca de</a></li>
-                        <li><a href="contacto.html" class="active">Contacto</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
                         <li class="borde"><a href="iniciar-sesion.html" class="iniciar-sesion" >Iniciar Sesión</a></li>
                     </ul>
                 </nav>
@@ -60,82 +61,45 @@
     </header>
 
     <main>
-        <section id="fondo">
+        <section id="iniciar-sesion">
             <div class="contenedor">
-                <h1>¡Hablemos!</h1>
-                <p>Estamos felices de responder todas tus preguntas, prometemos responder en el menor tiempo posible.</p>
+                <div class="contenido">
+                    <h1>REGISTRO</h1>
+                    <form>
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="E-mail">
+                        <input type="text" placeholder="Contraseña">
+                        <div id="check">
+                            <label id="recordarme">
+                                <input type="checkbox" name="Recordarme">Mandarme información a mi correo
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Acepto">Acepto términos y condiciones
+                            </label>
+                        </div>
+                        <a id="iniciar" href="#">INICIAR SESION</a>
+                        <label>
+                            ¿Ya tienes una cuenta? <a id="registrate" href="iniciar-sesion.html">INICIAR SESIÓN AQUI</a>
+                        </label>
+                    </form>
+                </div>
+
+                <div class="redes">
+                    <p>Iniciar sesión con redes sociales</p>
+                    <a href="#" class="fb">
+                        <i class="fab fa-facebook-f"></i>Continuar con Facebook 
+                    </a>
+
+                    <a href="#" class="google">
+                         <i class="fab fa-google-plus-g"></i>Continuar con Google
+                    </a>
+                </div>
             </div>
-        </section>
-        <section id="hablemos">
-            <div class="contenedor">
-                    <div class="contacto">
-                        <h3>PONTE EN CONTACTO, RESOLVEREMOS TUS DUDAS</h3>
-                        <div class="contacto-form">
-                            <form action="">
-                                <input type="text" placeholder="Nombre">
-                                <input type="text" placeholder="Email">
-                                <input type="text" placeholder="Teléfono">
-                                <input type="text" placeholder="¿Cómo podemos ayudarte?">
-                                <a href="#">CONTACTAR</a>
-                            </form>
-                        </div>                    
-                    </div>
-               
-            </div>
+            
         </section>
         
     </main>
 
-    <footer>
-        <section id="pie">
-            <div class="contenedor">
-                <div class="directorio">
-                    <ul>
-                        <li><a class="titulo-lista" href="#">Servicios</a></li>
-                        <li><a href="valuar-inmueble.html">Valuar un Inmueble</a></li>
-                        <li><a href="reporte-brainbrow.html">Reporte Brainbow</a></li>
-                        <li><a href="hipoteca.html">Hipoteca Online</a></li>
-                        <li><a href="iniciar-sesion.html">Seguro Hogar</a></li>
-                        <li><a href="rent-score.html">Rent Score</a></li>
-                    </ul>
-
-                    <ul>
-                        <li><a class="titulo-lista" href="#">Brainbow</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                        <li><a href="acercade.html">Acerca de</a></li>
-                        <li><a href="ayuda.html">Centro de ayuda</a></li>
-                    </ul>
-
-                    <ul>
-                        <li><a class="titulo-lista" href="#">Empresas</a></li>
-                        <li><a href="sector-inmobiliario.html">Sector Inmobiliario</a></li>
-                        <li><a href="seguros.html">Seguros</a></li>
-                    </ul>
-
-                    <ul>
-                        <li><a class="titulo-lista" href="#">Información</a></li>
-                        <li><a href="#">Términos y condiciones</a></li>
-                        <li><a href="#">Aviso de privacidad</a></li>
-                    </ul>
-
-                    <ul>
-                        <a href="home.html" class="logo"><img src="recursos/Logo-brainbow/Brainbow_logo.png" alt="Logo de Brainbown"></a>             
-                    </ul>
-                </div>
-            </div>
-
-        </section>
-
-        <section id="pie-contacto">
-            <div class="borde-padding">
-                <div class="contenedor-a-contacto">
-                    <a href="contacto.html">Contacto</a>
-                    <a href="ayuda.html">Centro de ayuda</a>
-                    <a class="go4it" href="#">© go4it</a>
-                 </div>
-            </div>
-        </section>
-    </footer>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/script.js"></script>
