@@ -705,7 +705,7 @@ footer img {
     }
 
     header nav {
-        display: block;
+        display: none;
         position: absolute;
         top: 86px;
         left: 0;
