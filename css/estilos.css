@@ -308,7 +308,7 @@ nav li:hover .submenu-nav {
 
 .contenedor-nuestros-servicios .servicio-uno {
     background: rgb(33, 51, 71);
-    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .16);
     width: 500px;
     height: 270px;
     margin-right: 0;
@@ -317,7 +317,7 @@ nav li:hover .submenu-nav {
 
 .contenedor-nuestros-servicios .servicio-dos {
     background: rgb(56 ,96, 132);
-    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .16);
     width: 500px;
     height: 270px;
 
@@ -325,7 +325,7 @@ nav li:hover .submenu-nav {
 
 .contenedor-nuestros-servicios .servicio-tres {
     background: rgb(56 ,96, 132);
-    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .16);
     width: 500px;
     height: 270px;
 
@@ -333,7 +333,7 @@ nav li:hover .submenu-nav {
 
 .contenedor-nuestros-servicios .servicio-cuatro {
     background: rgb(39, 76, 117);
-    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .16);
     width: 500px;
     height: 270px;
 
@@ -341,7 +341,7 @@ nav li:hover .submenu-nav {
 
 .contenedor-nuestros-servicios .servicio-cinco {
     background:  rgb(33, 51, 71);
-    box-shadow: 0 5px 9px 0 rgba(215, 215, 215, .16);
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .16);
     width: 500px;
     height: 270px;
 
@@ -4610,7 +4610,7 @@ input[type=text] {
 
 @media screen and (max-width: 800px) {
     #descubre-2 {
-        height: 1700px;
+        height: 1300px;
     }
 
     #descubre-2 .items-descubre {
@@ -4657,7 +4657,7 @@ input[type=text] {
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
     #descubre-2 {
-        height: 2100px;
+        height: 1500px;
     }
 
     #descubre-2 h2 {
@@ -5052,7 +5052,7 @@ input[type=text] {
     }
 
     #soporte {
-        height: 544px;
+        height: 444px;
     }
 
     #soporte .items-soporte {
@@ -5544,10 +5544,10 @@ input[type=text] {
     float: left;
     width: 367px;
     height: 350px;
-  }
+}
   
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
+/* Style the buttons that are used to open the tab content */
+.tab button {
     display: block;
     background-color: #FFFFFF;
     color: #747474;
@@ -5562,68 +5562,69 @@ input[type=text] {
     margin-bottom: 16px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .06);
     font-size: 16px;
-  }
+}
   
-  /* Change background color of buttons on hover */
-  .tab button:hover {
+/* Change background color of buttons on hover */
+.tab button:hover {
     background-color: #4F97E3;
     color: #FFFFFF;
-  }
+}
   
-  /* Create an active/current "tab button" class */
-  .tab button.active {
+/* Create an active/current "tab button" class */
+.tab button.active {
     background-color: #4F97E3;
     color: #FFFFFF;
-  }
+}
   
-  /* Style the tab content */
-  .tabcontent {
+/* Style the tab content */
+.tabcontent {
     display: none;
     text-align: center;
     width: 800px;
-  }
+}
 
-  #pasa .tabcontent img {
+#pasa .tabcontent img {
       width: 140px;
       height: 140px;
-  }
+}
 
-  #pasa .tabcontent h3 {
+#pasa .tabcontent h3 {
       font-size: 20px;
       font-weight: 500;
       color: #3B536D
-  }
+}
 
-  #pasa .tabcontent h6 {
+#pasa .tabcontent h6 {
       font-size: 10px;
       font-weight: 500;
       color: #3B536D;
       margin-bottom: 10px;
-  }
-  #pasa .tabcontent p {
+}
+
+#pasa .tabcontent p {
       color: #747474;
       width: 363px;
       margin-top: 0;
       margin-left: 380px;
-  }
+}
 
-  #pasa .tabcontent a {
+#pasa .tabcontent a {
       display: block;
       color: #489DF8;
       text-align: left;
       margin-left: 450px
-  }
+}
 
-  #pasa .tabcontent a::after {
+#pasa .tabcontent a::after {
       content: '\203A';
       color: #489DF8;
       font-size: 40px;
       float: right;
       margin-top: -39px;
       margin-right: 106px;
-  }
+}
 
-  .flecha-up {
+.flecha-up {
     width: 0px;
     height: 0px;
     border-left: 66px solid transparent; /* izquierda flecha */
@@ -5631,84 +5632,84 @@ input[type=text] {
     border-bottom: 50px solid #3B536D; /* base flecha y color*/
     font-size: 0px;
     line-height: 0px;
- }
+}
 
- .up {
+.up {
      position: absolute;
      margin-top: -49px;
      margin-left: 247px;
- }
+}
 
- #coberturas {
+#coberturas {
      height: 850px;
      background: #3B536D;
- }
+}
 
- #coberturas h2 {
+#coberturas h2 {
      color: #FFFFFF;
      padding-top: 64px;
      margin-bottom: 0px;
- }
+}
 
- #coberturas .items-coberturas {
+#coberturas .items-coberturas {
      display: flex;
      margin-top: 40px;
      margin-left: 118px;
      margin-right: 56px;
- }
+}
 
- #coberturas .item-coberturas {
+#coberturas .item-coberturas {
      width: 426px;
      height: 324px;
      background: #203348;
      margin-right: 62px;
      text-align: center;
- }
+}
 
- #coberturas .item-coberturas ul {
+#coberturas .item-coberturas ul {
      padding: 0;
      margin: 0;
      margin-top: 61px;
      margin-left: 46px;
      margin-right: 46px;
- }
+}
 
- #coberturas .item-coberturas ul li {
+#coberturas .item-coberturas ul li {
      list-style: none;
- }
+}
 
- #coberturas .item-coberturas img {
+#coberturas .item-coberturas img {
      width: 120px;
      height: 95px;
- }
+}
 
- #coberturas .item-coberturas ul li:nth-child(1) {
+#coberturas .item-coberturas ul li:nth-child(1) {
      height: 95px;
- }
+}
  
- #coberturas .item-coberturas ul li:nth-child(2) {
+#coberturas .item-coberturas ul li:nth-child(2) {
      font-size: 25px;
      font-weight: 500;
      color: #FFFFFF;
      margin-bottom: 10px;
- }
+}
 
- #coberturas .item-coberturas ul li:nth-child(3) {
+#coberturas .item-coberturas ul li:nth-child(3) {
      color: #FFFFFF;
      font-weight: 300;
      margin-bottom: 40px;
- }
+}
 
- #coberturas .item-coberturas ul li:nth-child(4) {
+#coberturas .item-coberturas ul li:nth-child(4) {
      text-align: left;
      font-weight: 300;
      background: #203348;
      width: 336px;
      padding: 0 45px;
      margin-left: -46px;
- }
+}
 
- #coberturas .item-coberturas ul li a {
+#coberturas .item-coberturas ul li a {
      display: block;
      text-align: center;
      text-decoration: none;
@@ -5722,9 +5723,9 @@ input[type=text] {
      margin-top: 30px;
      margin-left: auto;
      margin-right: auto;
- }
+}
 
- #coberturas .item-coberturas ul li button {
+#coberturas .item-coberturas ul li button {
      font-size: 13px;
      font-weight: 700;
      color: #FFFFFF;
@@ -5734,25 +5735,25 @@ input[type=text] {
      width: 426px;
      margin-left: -46px;
      padding: 13px;
- }
+}
 
 
- #more {
+#more {
      display: none;
      color: #FFFFFF;
      font-size: 14px;
      font-weight: 300;
- }
+}
 
- #more2 {
+#more2 {
      display: none;
      background: #203348;
      color: #FFFFFF;
      font-size: 14px;
      font-weight: 300;
- }
+}
 
- #coberturas .item-coberturas2 {
+#coberturas .item-coberturas2 {
     width: 426px;
     height: 324px;
     background: #203348;
@@ -6131,7 +6132,7 @@ input[type=text] {
 
     #coberturas {
         width: 100%;
-        height: 1150px;
+        height: 1400px;
     }
 
     .up {
@@ -6271,6 +6272,10 @@ input[type=text] {
     #descubre h2 {
         font-size: 20px;
     }
+
+    .menor-tamaño {
+        height: 700px !important;
+    }
 }
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
@@ -6374,8 +6379,6 @@ input[type=text] {
        margin-right: 119px;
     }
 
-
-
     .up {
         margin-left: 280px;
     }
@@ -6464,6 +6467,10 @@ input[type=text] {
     .tamaño-diferente {
         font-size: 35px !important;
         width: 100% !important;
+    }
+
+    .menor-tamaño {
+        height: 900px !important;
     }
 
 }
