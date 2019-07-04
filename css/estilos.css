@@ -1593,6 +1593,7 @@ input[type=text] {
     font-size: 20px;
     font-weight: 500;
     color: #6CBB8E;
+    height: 52px;
 }
 
 .item-brindamos-4 ul li:nth-child(3) {
@@ -1663,7 +1664,7 @@ input[type=text] {
     margin-right: 30px;
     margin-bottom: 30px;
     width: 285px;
-    height: 236px;
+    height: 260px;
 }
 
 .item-para-que-sirve img {
@@ -1692,7 +1693,14 @@ input[type=text] {
 .item-para-que-sirve ul li:nth-child(3) {
     color: #747474;
     width: 254px;
+    height: 95px;
 }
+
+.item-para-que-sirve ul li a {
+    color: #24A1E9;
+
+}
+
 
 #valuar-un-inmueble {
     background: #E6E9ED;
@@ -2150,7 +2158,7 @@ input[type=text] {
 
 #adecuamos-necesidades {
     width: 100%;
-    height: 969px;
+    height: 1080px;
     background: #3B536D;
     text-align: center;
 }
@@ -2221,7 +2229,7 @@ input[type=text] {
     font-weight: 400;
     color: #646464;
     padding-bottom: 10px;
-    border-bottom: 1px solid #AAAAAA;
+    /* border-bottom: 1px solid #AAAAAA; */
     margin-bottom: 50px;
 }
 
@@ -2244,7 +2252,7 @@ input[type=text] {
 
 #adecuamos-necesidades .item-reportes-2 {
     width: 343px;
-    height: 672px;
+    height: 750px;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
@@ -2340,6 +2348,33 @@ input[type=text] {
     border-bottom: 1px solid #AAAAAA;
 }
 
+#adecuamos-necesidades .item-reportes-2 ul li:nth-child(10) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #646464;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+#adecuamos-necesidades .item-reportes-2 ul li:nth-child(11) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #646464;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+#adecuamos-necesidades .item-reportes-2 ul li:nth-child(12) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #646464;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
 #adecuamos-necesidades .item-reportes-2 a {
     display: block;
     background: #6CBB8E;
@@ -2425,7 +2460,7 @@ input[type=text] {
     }
 
     #indicadores-incluidos .contenedor img {
-        margin-left: 0;
+        /* margin-left: 0; */
     }
 
     #indicadores-incluidos .contenedor-items-indicadores {
@@ -2473,7 +2508,7 @@ input[type=text] {
     #indicadores-incluidos .mejores-decisiones .p-derecha p {
         width: 307px;
         height: 120px;
-        margin-top: 60px;
+        margin-top: 85px;
         margin-left: 0;
     }
 
@@ -2496,7 +2531,7 @@ input[type=text] {
 
     #adecuamos-necesidades .item-reportes-1 {
         width: 303px;
-        height: 390px;
+        height: 300px;
         margin-bottom: 47px;
     }
 
@@ -2537,7 +2572,7 @@ input[type=text] {
 
     #adecuamos-necesidades .item-reportes-2 {
         width: 303px;
-        height: 580px;
+        height: 720px;
         margin: 0;
     }
 
@@ -2655,7 +2690,7 @@ input[type=text] {
     #indicadores-incluidos .mejores-decisiones .p-derecha p {
         width: 623px;
         height: 94px;
-        margin-top: 20px;
+        margin-top: 70px;
     }
 
     #adecuamos-necesidades {
@@ -2680,7 +2715,7 @@ input[type=text] {
 
     #adecuamos-necesidades .item-reportes-1 {
         width: 343px;
-        height: 453px;
+        height: 350px;
         margin-bottom: 54px;
     }
 
@@ -2710,7 +2745,7 @@ input[type=text] {
 
     #adecuamos-necesidades .item-reportes-2 {
         width: 343px;
-        height: 671px;
+        height: 800px;
     }
 
     #adecuamos-necesidades .item-reportes-2 ul {
@@ -5605,14 +5640,14 @@ input[type=text] {
       color: #747474;
       width: 363px;
       margin-top: 0;
-      margin-left: 380px;
+      margin-left: 400px;
 }
 
 #pasa .tabcontent a {
       display: block;
       color: #489DF8;
       text-align: left;
-      margin-left: 450px
+      margin-left: 470px
 }
 
 #pasa .tabcontent a::after {
@@ -5621,7 +5656,7 @@ input[type=text] {
       font-size: 40px;
       float: right;
       margin-top: -39px;
-      margin-right: 106px;
+      margin-right: 88px;
 }
 
 .flecha-up {
@@ -6082,7 +6117,7 @@ input[type=text] {
     }
 
     #pasa {
-        height: 850px;
+        height: 880px;
     }
 
     #pasa .contenido {
@@ -6114,7 +6149,7 @@ input[type=text] {
     }
 
     #pasa .tabcontent h6 {
-        margin-left: -50px;
+        margin-left: -15px;
     }
 
     #pasa .tabcontent p {
