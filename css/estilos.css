@@ -67,7 +67,7 @@ nav ul li {
     list-style: none;
 }
 
-nav ul li a {
+nav ul li a, .subnavbtn {
     text-decoration: none;
     color: #707070;
     font-size: 14px;
@@ -82,6 +82,13 @@ nav ul li a:hover {
     transition: all .3s;
 }
 
+nav ul li:hover {
+    color: #60A1E7;
+    background: #F5F6F7;
+    transition: all .3s;
+}
+
+
 nav ul li a.active {
     color: #60A1E7;
     font-weight: 700;
@@ -90,7 +97,7 @@ nav ul li a.active {
 .submenu-nav {
     position: absolute;
     left: 0;
-    top: 63px;
+    top: 60px;
     background: #F5F6F7;
     width: 100%;
     height: 224px;
@@ -144,9 +151,17 @@ nav li:hover .submenu-nav {
     visibility: visible;
 }
 
+svg:hover path {
+    fill: #60A1E7;
+}
+
+.item-menu:hover {
+    border: 1px solid  #60A1E7;
+}
+
 .item-menu {
     width: 216.49px;
-    height: 114.62px;
+    height: 142.62px;
     background: #ffffff;
     margin-top: 53.69px;
     margin-bottom: 53.69px;
@@ -155,10 +170,12 @@ nav li:hover .submenu-nav {
     font-weight: 500;
     text-align: center;
     padding: 0;
+    border: 1px solid #FFFFFF;
 }
 
 .item-menu p {
     margin-top: 0;
+    height: 40px;
 }
 
 .item-menu li {
@@ -174,6 +191,10 @@ nav li:hover .submenu-nav {
     border-radius: 5px;
     padding: 6px;
     margin-top: 14px;
+}
+
+li.borde {
+    height: 0px;
 }
 
 #brainbrow h1 {
@@ -736,6 +757,14 @@ footer img {
         margin-bottom: 16px;
     }
 
+    .item-menu {
+        border: none;
+    }
+
+    .item-menu:hover {
+        border: none;
+    }
+
     header .iniciar-sesion {
         width: 143px;
     }
@@ -743,9 +772,10 @@ footer img {
     header .submenu-nav {
         visibility: visible;
         background: none;
+        margin-top: 35px;
     }
 
-    header .submenu-nav img {
+    header .submenu-nav svg {
         display: none;
     }
 
@@ -761,6 +791,7 @@ footer img {
         color: #707070;
         font-weight: 400;
         padding-bottom: 0;
+        height: unset;
     }
 
     header .submenu-nav .item-menu br {
@@ -780,7 +811,7 @@ footer img {
         top: 174px;
     }
 
-    header .submenu-nav-empresas img {
+    header .submenu-nav-empresas svg {
         display: none;
     }
 
@@ -1481,7 +1512,7 @@ span {
 
 #valoriza-un-inmueble {
     background-image: url(../recursos/valuar-inmueble/portada-casa.svg);
-    width: 1280px;
+    width: 100%;
     height: 532px;
     text-align: center;
 }
@@ -1533,10 +1564,11 @@ input[type=text] {
 #cta-valuar-inmueble {
     background: #E6E9ED;
     height: 277px;
+    text-align: center;
 }
 
-#cta-valuar-inmueble {
-    text-align: center;
+#cta-valuar-inmueble .logos-enlaces {
+    width: 100%;
 }
 
 #cta-valuar-inmueble a {
@@ -1558,7 +1590,7 @@ input[type=text] {
 
 .contenido-brindamos-4 {
     background: #FFFFFF;
-    width: 1080px;
+    width: 85%;
     height: 372px;
     position: absolute;
     margin-top: -75px;
@@ -1586,6 +1618,11 @@ input[type=text] {
     margin-bottom: 13px;
 }
 
+.item-brindamos-4 ul {
+    margin: 0;
+    padding: 0;
+
+}
 
 .item-brindamos-4 ul li {
     list-style: none;
@@ -1631,6 +1668,11 @@ input[type=text] {
     height: 90px;
 }
 
+.item-como-valor ul {
+    margin: 0;
+    padding: 0;
+}
+
 .item-como-valor ul li {
     list-style: none;
     color: #FFFFFF;
@@ -1663,8 +1705,9 @@ input[type=text] {
 .item-para-que-sirve {
     border: 1px solid #E8E8E8;
     border-radius: 6px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    /* margin-right: 30px;
+    margin-bottom: 30px; */
+    margin: 10px;
     width: 285px;
     height: 260px;
 }
@@ -1726,6 +1769,8 @@ input[type=text] {
     }
 
     #valoriza-un-inmueble {
+        background-repeat: no-repeat;
+        background-position: bottom;
         width: 100%;
         height: 528px;
         text-align: center;
@@ -1787,6 +1832,9 @@ input[type=text] {
     #brindamos-4 .contenedor-item-brindamos-4 {
         flex-direction: column;
         margin: 0;
+        margin-left: 25.5px;
+        margin-right: 25.5px;
+
     }
 
     #brindamos-4 .contenedor-item-brindamos-4 .item-brindamos-4 {
@@ -2890,6 +2938,10 @@ input[type=text] {
     width: 255px;
     height: 190px;
     margin-right: 66px;
+}
+#elige-meta .items-meta .item-meta:nth-child(3){
+    margin-right: 0;
+
 }
 
 #elige-meta .items-meta .item-meta ul {
@@ -4223,15 +4275,17 @@ input[type=text] {
 #porque-brainbrow .items-porque {
     display: flex;
     flex-wrap: wrap;
+    width: 72%;
     margin-top: 83px;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #porque-brainbrow .item-porque-1 {
-    width: 231px;
+    width: 220px;
     height: 207px;
-    margin-right: 43px;
+    margin-left: 27px;
+    margin-right: 25px;
 }
 
 #porque-brainbrow .item-porque-1 ul {
@@ -4255,10 +4309,11 @@ input[type=text] {
 }
 
 #porque-brainbrow .item-porque {
-    width: 231px;
+    width: 220px;
     height: 207px;
     margin-bottom: 50px;
-    margin-right: 43px;
+    margin-left: 27px;
+    margin-right: 25px;
     border: 1px solid #E8E8E8;
     border-radius: 6px;
 }
@@ -4480,12 +4535,15 @@ input[type=text] {
     }
 
     #porque-brainbrow .items-porque {
-        margin-left: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
     #porque-brainbrow .item-porque-1 {
         text-align: left;
-        margin-right: 30px;
+        margin-right: 31px;
+        height: 236px;
     }
 
     #porque-brainbrow .item-porque-1 ul li:nth-child(1) {
@@ -4498,7 +4556,7 @@ input[type=text] {
 
     #porque-brainbrow .item-porque {
         margin-right: 30px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
 
     #descubre {
@@ -5199,7 +5257,11 @@ input[type=text] {
     color: #747474;
     float: left;
     margin-left: 5px;
-  }
+}
+
+#asistencia .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
 
 .items-info .atras {
     margin-top: 27px;
@@ -5254,7 +5316,7 @@ input[type=text] {
     border-radius: 4px;
 }
 
-/* Responsive de Ayuda Valori Inmobiliario para iOS y Android */
+/* Responsive de Ayuda Valor Inmobiliario para iOS y Android */
 
 @media screen and (max-width: 800px) {
     #soporte-ayuda { 
@@ -5518,7 +5580,7 @@ input[type=text] {
 }
 
 #protege-hogar .contenido .home-texto {
-    width: 538px;
+    width: 48%;
     margin-top: 120px;
 }
 
@@ -5527,7 +5589,7 @@ input[type=text] {
 }
 
 #protege-hogar .contenido .home-texto p {
-    width: 467px;
+    width: 100%;
     color: #747474;
 }
 
@@ -5575,8 +5637,8 @@ input[type=text] {
 }
 
 #pasa .contenido {
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 #pasa .contenido h2 {
@@ -5585,7 +5647,7 @@ input[type=text] {
 
 .tab {
     float: left;
-    width: 367px;
+    width: 42%;
     height: 350px;
 }
   
@@ -5623,7 +5685,8 @@ input[type=text] {
 .tabcontent {
     display: none;
     text-align: center;
-    width: 800px;
+    width: 57%;
+    margin-left: 367px;
 }
 
 #pasa .tabcontent img {
@@ -5634,7 +5697,10 @@ input[type=text] {
 #pasa .tabcontent h3 {
       font-size: 20px;
       font-weight: 500;
-      color: #3B536D
+      color: #3B536D;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 #pasa .tabcontent h6 {
@@ -5648,24 +5714,23 @@ input[type=text] {
       color: #747474;
       width: 363px;
       margin-top: 0;
-      margin-left: 400px;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 #pasa .tabcontent a {
-      display: block;
+      display: inline-flex;
       color: #489DF8;
-      text-align: left;
-      margin-left: 470px
+      text-decoration: none;
 }
-
+/* 
 #pasa .tabcontent a::after {
       content: '\203A';
       color: #489DF8;
       font-size: 40px;
       float: right;
-      margin-top: -39px;
-      margin-right: 88px;
-}
+      margin-top: -18px;
+} */
 
 .flecha-up {
     width: 0px;
@@ -5684,7 +5749,7 @@ input[type=text] {
 }
 
 #coberturas {
-     height: 850px;
+     height: 1000px;
      background: #3B536D;
 }
 
@@ -5702,8 +5767,8 @@ input[type=text] {
 }
 
 #coberturas .item-coberturas {
-     width: 426px;
-     height: 324px;
+     width: 43%;
+     height: 100%;
      background: #203348;
      margin-right: 62px;
      text-align: center;
@@ -5747,7 +5812,7 @@ input[type=text] {
      text-align: left;
      font-weight: 300;
      background: #203348;
-     width: 336px;
+     width: 100.6%;
      padding: 0 45px;
      margin-left: -46px;
 }
@@ -5759,11 +5824,12 @@ input[type=text] {
      background: #5F9FE5;
      color: #FFFFFF;
      border-radius: 4px;
-     width: 220px;
+     width: 80%;
      padding: 13px;
      font-size: 18px;
      font-weight: 700;
      margin-top: 30px;
+     margin-bottom: 20px;
      margin-left: auto;
      margin-right: auto;
 }
@@ -5775,8 +5841,7 @@ input[type=text] {
      background: #203348;
      border: none;
      border-top: 1px solid #545E72;
-     width: 426px;
-     margin-left: -46px;
+     width: 100%;
      padding: 13px;
 }
 
@@ -5797,8 +5862,8 @@ input[type=text] {
 }
 
 #coberturas .item-coberturas2 {
-    width: 426px;
-    height: 324px;
+    width: 43%;
+    height: 100%;
     background: #203348;
     margin-right: 62px;
     text-align: center;
@@ -5842,7 +5907,7 @@ input[type=text] {
     text-align: left;
     font-weight: 300;
     background: #203348;
-    width: 336px;
+    width: 100.6%;
     padding: 0 45px;
     margin-left: -46px;
 }
@@ -5854,11 +5919,12 @@ input[type=text] {
     background: #5F9FE5;
     color: #FFFFFF;
     border-radius: 4px;
-    width: 220px;
+    width: 80%;
     padding: 13px;
     font-size: 18px;
     font-weight: 700;
     margin-top: 30px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -5870,8 +5936,7 @@ input[type=text] {
     background: #203348;
     border: none;
     border-top: 1px solid #545E72;
-    width: 426px;
-    margin-left: -46px;
+    width: 100%;
     padding: 13px;
 }
 
@@ -5948,6 +6013,7 @@ input[type=text] {
 }
 
 #minutos {
+    width: 100%;
     height: 502px;
     background: #E6E9ED;
 
@@ -5959,7 +6025,9 @@ input[type=text] {
 
 #minutos .items-minutos {
     display: flex;
-    margin-left: 129px;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #minutos .item-minutos {
@@ -5967,7 +6035,6 @@ input[type=text] {
     width: 255px;
     height: 192px;
     margin-top: 60px;
-    margin-right: 65px;
 }
 
 #minutos .item-minutos ul {
@@ -6020,6 +6087,10 @@ input[type=text] {
     margin-right: auto;
 }
 
+#asistencia {
+    width: 100%;
+}
+
 #asistencia h3 {
     font-size: 20px;
     font-weight: 500;
@@ -6027,12 +6098,14 @@ input[type=text] {
 }
 
 #asistencia .contenedor-asistencia {
-    margin-left: 112px;
-    margin-right: 196px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #asistencia .lados {
     display: flex;
+    width: 100%;
 }
 
 #asistencia .lados .txt-izq h3 {
@@ -6048,7 +6121,7 @@ input[type=text] {
 
 #asistencia .lados .txt-der {
     margin-top: 97px;
-    margin-left: 211px;
+    margin-left: 20%;
 }
 
 #asistencia .lados .txt-der a {
@@ -6139,38 +6212,33 @@ input[type=text] {
     }
 
     .tab {
-        width: 320px;
+        width: 287px;
     }
 
     .tabcontent {
-        width: 320px;
+        width: 287px;
+        margin-left: 0;
     }
 
     #pasa .tabcontent img {
-        margin-left: -65px;
+        margin-top: 20px;
     }
-
+    
     #pasa .tabcontent h3 {
         text-align: center;
-        width: 206px;
-        margin-left: 53px;
     }
 
-    #pasa .tabcontent h6 {
+    /* #pasa .tabcontent h6 {
         margin-left: -15px;
-    }
+    } */
 
     #pasa .tabcontent p {
-        margin-left: -20px;
+        margin-left: 0;
+        width: 287px;
     }
 
     #pasa .tabcontent a {
         margin-left: 0;
-        margin-left: 40px;
-    }
-
-    #pasa .tabcontent a::after {
-        margin-right: 36px;
     }
 
     #coberturas {
@@ -6195,6 +6263,7 @@ input[type=text] {
     #coberturas .item-coberturas {
         width: 285px;
         margin-bottom: 50px;
+        margin-right: 0;
         display: inline-table;
     }
 
@@ -6214,11 +6283,13 @@ input[type=text] {
 
     #coberturas .item-coberturas ul li button {
         width: 285px;
+        margin-left: -46px;
     }
 
     #coberturas .item-coberturas2 {
         width: 285px;
         margin-bottom: 50px;
+        margin-right: 0;
         display: inline-table;
     }
 
@@ -6238,6 +6309,7 @@ input[type=text] {
 
     #coberturas .item-coberturas2 ul li button {
         width: 285px;
+        margin-left: -46px;
     }
 
     #beneficios .items-beneficios {
@@ -6285,11 +6357,6 @@ input[type=text] {
         margin-right: 0;
     }
 
-    #asistencia .contenedor-asistencia {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
     #asistencia h3 {
         text-align: center;
     }
@@ -6304,7 +6371,7 @@ input[type=text] {
     }
 
     #asistencia .lados .txt-izq p {
-        width: 310px;
+        width: 100%;
     }
 
     #asistencia .lados .txt-der {
@@ -6375,8 +6442,8 @@ input[type=text] {
     .tab {
         display: flex;
         width: 615px;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 38px;
+        margin-right: 38px;
 
     }
 
@@ -6389,6 +6456,8 @@ input[type=text] {
 
     .tabcontent {
         width: 615px;
+        margin-left: 38px;
+        margin-right: 38px;
     }
 
     #pasa {
@@ -6398,28 +6467,22 @@ input[type=text] {
     #pasa .tabcontent img {
         margin: 0;
         margin-top: -120px;
-        margin-left: 100px;
     }
 
     #pasa .tabcontent h3 {
         width: auto;
-        margin-left: 130px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #pasa .tabcontent h6 {
-        margin-left: 130px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #pasa .tabcontent p {
-        margin-left: 190px;
-    }
-    #pasa .tabcontent a {
-        margin-left: 250px;
-    }
-
-    #pasa .tabcontent a::after {
-       margin-top: -19px;
-       margin-right: 119px;
+        margin-left: auto;
+        margin-left: auto;
     }
 
     .up {
@@ -6499,8 +6562,9 @@ input[type=text] {
     }
 
     #minutos .items-minutos {
-        margin-left: 200px;
-        margin-right: 200px;
+        width: 255px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #asistencia h3 {
@@ -6518,26 +6582,11 @@ input[type=text] {
 
 }
 
+main.blur{
+    filter: blur(3px);
+    transform: scale(0.95);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.material-icons.md-20 { 
+    font-size: 20px; 
+}

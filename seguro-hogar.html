@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+
 
     <title>Brainbow</title>
 </head>
@@ -18,32 +23,32 @@
                 <nav>
                     <ul>
                         <li><a href="valuar-inmueble.html">Valuar un Inmueble</a></li>
-                        <li><a href="#" class="fondo-menu">Servicios</a>
-                            <ul class="submenu-nav">
+                        <li><a href="#" class="fondo-menu active item-hover">Servicios</a>
+                            <ul class="submenu-nav item-hover">
                                 <div class="item-menu">
-                                    <li><a href="valuar-inmueble.html" class="color-txt" style="text-transform: capitalize"><img src="recursos/servicios/valor.svg"><p>valor<br> inmobiliario</p></a></li>
+                                    <li><a href="valuar-inmueble.html" class="color-txt" style="text-transform: capitalize"><img class="svg" src="recursos/servicios/valor.svg"><p>valor<br> inmobiliario</p></a></li>
                                 </div>
                                 <div class="item-menu">
-                                    <li><a href="reporte-brainbrow.html" style="text-transform: capitalize"><img src="recursos/servicios/reporte.svg"><p>reporte<br> brainbow</p></a></li>
+                                    <li><a href="reporte-brainbrow.html" style="text-transform: capitalize"><img class="svg" src="recursos/servicios/reporte.svg"><p>reporte<br> brainbow</p></a></li>
                                 </div>
                                 <div class="item-menu">
-                                    <li><a href="seguro-hogar.html" style="text-transform: capitalize"><img src="recursos/servicios/seguro.svg"><p>seguro<br> hogar online</p></a></li>
+                                    <li><a href="seguro-hogar.html" style="text-transform: capitalize"><img class="svg" src="recursos/servicios/seguro.svg"><p>seguro<br> hogar online</p></a></li>
                                 </div>
                                 <div class="item-menu">
-                                    <li><a href="hipoteca.html" style="text-transform: capitalize"><img src="recursos/servicios/hipoteca.svg"><p>hipoteca<br> online</p></a></li>
+                                    <li><a href="hipoteca.html" style="text-transform: capitalize"><img class="svg" src="recursos/servicios/hipoteca.svg"><p>hipoteca<br> online</p></a></li>
                                 </div>
                                 <!-- <div class="item-menu">
                                     <li><a href="rent-score.html" style="text-transform: capitalize"><img src="recursos/servicios/rent.svg"><p>rent<br> score</p></a></li>
                                 </div> -->
                             </ul>
                         </li>
-                        <li><a class="fondo-menu-empresa" href="#">Empresas</a>
-                            <ul class="submenu-nav-empresas">
+                        <li><a class="fondo-menu-empresa item-hover" href="#">Empresas</a>
+                            <ul class="submenu-nav-empresas item-hover">
                                 <div class="item-menu">
-                                    <li><a href="sector-inmobiliario.html" style="text-transform: capitalize"><img src="recursos/valuar-inmueble/compra-venta.svg"><p>sector<br> inmobiliario</p></a></li>
+                                    <li><a href="sector-inmobiliario.html" style="text-transform: capitalize"><img class="svg" src="recursos/valuar-inmueble/compra-venta.svg"><p>sector<br> inmobiliario</p></a></li>
                                 </div>
                                 <div class="item-menu">
-                                    <li><a href="seguros.html" style="text-transform: capitalize"><img src="recursos/valuar-inmueble//compra-venta.svg"><p>seguros</p></a></li>
+                                    <li><a href="seguros.html" style="text-transform: capitalize"><img class="svg" src="recursos/valuar-inmueble//compra-venta.svg"><p>seguros</p></a></li>
                                 </div>
                                 <ul>
                                     <li class="submenu-azul"><p>¿Quieres ver todo el potencial de Brainbow?</p><a href="contacto.html">SOLICITA UNA PRUEBA</a></li>
@@ -59,9 +64,9 @@
         </div>
     </header>
 
-    <main>
+    <main class="item-hover">
         <section id="protege-hogar">
-            <div class="contenedor">
+            <div class="contenedor autoplay">
                 <div class="contenido">
                     <div class="home-img">
                         <img src="recursos/seguro-hogar/Carrousel1.svg">
@@ -69,6 +74,16 @@
                     <div class="home-texto">
                         <h1>PROTEGE TU HOGAR Y TU TRANQUILIDAD</h1>
                         <p>Cubrimos el daño que pudiera tener tu inmueble y sus contenidos.</p>
+                        <a href="#">¡COTIZAR MI SEGURO!</a>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <div class="home-img">
+                        <img src="recursos/seguro-hogar/Carrousel1_1.svg">
+                    </div>
+                    <div class="home-texto">
+                        <h1>BLINDA TU HOGAR ANTE IMPREVISTOS</h1>
+                        <p>Cubrimos cualquier gasto derivado de un accidente o circunstancia que dañe la estructura o el contenido de tu casa, quedará cubierto.</p>
                         <a href="#">¡COTIZAR MI SEGURO!</a>
                     </div>
                 </div>
@@ -87,21 +102,21 @@
         </section>
 
         <section id="pasa">
-            <div class="contendor">
+            <div class="contenedor">
                 <div class="contenido">
                     <h2>¿Qué pasa si…______</h2>
                     <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'London')">…No encuentro las llaves de mi casa y no hay nadie cerca que pueda abrirme?</button>
+                        <button class="tablinks active" onclick="openCity(event, 'London')">…No encuentro las llaves de mi casa y no hay nadie cerca que pueda abrirme?</button>
                         <button class="tablinks" onclick="openCity(event, 'Paris')">…Alguien forzó la cerradura de mi casa y se llevó mi televisor?</button>
                         <button class="tablinks" onclick="openCity(event, 'Tokyo')">…Mis hijos rompieron las ventanas de la vecina?</button>
                         </div>
                         
-                        <div id="London" class="tabcontent">
+                        <div id="London" class="tabcontent" style="display: block">
                         <img src="recursos/home/confiable.svg">
                         <h3>¡NOSOTROS TE ABRIMOS LA PUERTA!</h3>
                         <h6>Asistencia en el hogar</h6>
                         <p>Nos encargamos de recomendarte al mejor cerrajero cerca, para que vaya a tu domicilio a abrirte la puerta.</p>
-                        <a href="#">Consulta términos y condiciones</a>
+                        <a href="#">Consulta términos y condiciones<i class="material-icons md-20">arrow_forward_ios</i></a>
                         </div>
                         
                         <div id="Paris" class="tabcontent">
@@ -109,7 +124,7 @@
                         <h3>¡NO LLORES MÁS PRONTO REGRESARAS A VER TUS SERIES FAVORITAS!</h3>
                         <h6>Asistencia en el hogar</h6>
                         <p>Reponemos el valor de los objetos robados con violencia.</p>
-                        <a href="#">Consulta términos y condiciones</a> 
+                        <a href="#">Consulta términos y condiciones<i class="material-icons md-20">arrow_forward_ios</i></a> 
                         </div>
                         
                         <div id="Tokyo" class="tabcontent">
@@ -117,7 +132,7 @@
                         <h3>¡NO TE PREOCUPES NOSOTROS NOS HACEMOS RESPONSABLES!</h3>
                         <h6>Asistencia en el hogar</h6>
                         <p>Cubrimos los daños que tu y tu familia lleguen a causar a otras personas.</p>
-                        <a href="#">Consulta términos y condiciones</a>
+                        <a href="#">Consulta términos y condiciones<i class="material-icons md-20">arrow_forward_ios</i></a>
                         </div>
                 </div>
             </div>
@@ -368,5 +383,20 @@
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/script.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+
+    $('.autoplay').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true
+    });
+
+</script>
 </body>
 </html>
