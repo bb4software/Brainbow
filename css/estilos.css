@@ -10,6 +10,11 @@ header {
     height: 86px;
 }
 
+main.blur {
+    filter: blur(3px);
+    transform: scale(0.95);
+}
+
 h1 {
     font-size: 40px;
     font-weight: 700;
@@ -197,6 +202,10 @@ li.borde {
     height: 0px;
 }
 
+#brainbrow {
+    height: auto;
+}
+
 #brainbrow h1 {
     font-size: 40px;
     font-weight: 700;
@@ -210,9 +219,13 @@ li.borde {
     color: #747474;
 }
 
+#brainbrow .home-img {
+    width: 50%;
+}
+
 #brainbrow .home-img img {
-    width: 584.71px;
-    height: 538.06px;
+    width: 100%;
+    height: 85%;
     margin-top: 0;
     padding: 32.93px 0;
 }
@@ -221,9 +234,13 @@ li.borde {
     display: flex;
     justify-content: space-around;
 }
+#brainbrow .home-texto {
+    /* margin-top: 135px; */
+    width: 50%;
+}
 
 #brainbrow .home-texto h1 {
-    margin-top: 0px;
+    margin-top: 135px;
     margin-bottom: 13.87px;
     margin-left: 100px;
 }
@@ -231,10 +248,6 @@ li.borde {
 #brainbrow .home-texto p {
     margin-left: 100px;
     margin-right: 45.8px;
-}
-
-#brainbrow .home-texto {
-    margin-top: 135px;
 }
 
 #cta {
@@ -254,6 +267,10 @@ li.borde {
     font-weight: 500;
     color: #3B536D !important;
     margin-right: 46px;
+}
+
+#cta a:nth-child(4) {
+    margin-right: 0;
 }
 
 #control {
@@ -277,6 +294,11 @@ li.borde {
     width: 28%;
     text-align: center;
 
+}
+
+#control ul {
+    margin: 0;
+    padding: 0;
 }
 
 #control ul li {
@@ -465,7 +487,7 @@ footer img {
 
 .directorio {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -506,7 +528,7 @@ footer img {
 }
 
 .go4it {
-    margin-left: 742px;
+    float: right;
 }
 
 #pie-contacto .borde-padding {
@@ -523,16 +545,18 @@ footer img {
         flex-direction: column;
     }
 
-    #brainbrow .home-img img{
+    #brainbrow .home-texto {
         width: 100%;
-        margin-top: -142px;
-        margin-bottom: -142px;
+    }
+
+    #brainbrow .home-img {
+        width: 100%;
     }
 
     #brainbrow .home-texto h1 {
         width: 100%;
         text-align: center;
-        margin-top: -100px;
+        margin-top: 35px;
         margin-left: 0;
         line-height: 33px;
     }
@@ -573,11 +597,13 @@ footer img {
     }
 
     #control .contenedor-control .item {
-        width: 82%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #control .contenedor-control .item img {
-        width: 150%;
+        width: 100%;
         margin-top: -45.91px;
     }
 
@@ -864,8 +890,9 @@ footer img {
 @media screen and (min-width: 700px) and (max-width: 800px) {
 
     #brainbrow .home-texto {
-        margin-left: 138px;
-        margin-right: 138px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #brainbrow .home-texto h1 {
@@ -895,6 +922,16 @@ footer img {
         flex-direction: row;
         flex-wrap: inherit;
     }
+
+    #control .contenedor .contenedor-control .item {
+        margin-right: 10px;
+    }
+
+    #control .contenedor .contenedor-control .item:nth-child(3) {
+        margin-right: 0;
+    }
+
+
 
     #nuestros-servicios h3 {
         font-size: 35px;
@@ -987,11 +1024,15 @@ footer img {
 #acercade .contenido {
     display: flex;
     justify-content: space-around;
-    margin-left: 130px;
     margin-top: 101.42px;
 }
 
+#acercade .home-texto {
+    width: 70%;
+}
+
 #acercade .home-texto h1 {
+    width: 80%;
     margin-top: 100px;
     margin-bottom: 10px;
     margin-left: 120px;
@@ -1006,6 +1047,7 @@ span {
 }
 
 #acercade .home-texto p {
+    width: 70%;
     margin-top: 0;
     margin-left: 120px;
     margin-right: 190px;
@@ -1016,13 +1058,20 @@ span {
 }
 
 #acercade .home-img {
-    width: 50%;
+    margin-left: 130px;
+    width: 30%;
 }
+
+#acercade .home-img img {
+    width: 100%;
+    height: 100%;
+}
+
 
 #cta-acercade {
     background: #E6E9ED;
-    widows: 100%;
-    height: 167.79px;
+    width: 100%;
+    height: auto;
 }
 
 .tamaño-inaoe {
@@ -1053,6 +1102,7 @@ span {
 
 #cta-acercade .logos-enlaces {
     text-align: center;
+    padding-bottom: 60px;
 }
 
 #cta-acercade .logos-enlaces img {
@@ -1062,17 +1112,19 @@ span {
 
 #q-brainbrown {
     background: #3B536D;
-    height: 522.79px;
+    height: auto;
 }
 
 #q-brainbrown .contenido {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 #q-brainbrown .acercade-txt {
-    width: 600px;
-    margin-left: 50px;
+    width: 60%;
+    margin-left: 5%;
     text-align: center;
 }
 
@@ -1094,11 +1146,13 @@ span {
 
 #q-brainbrown .acercade-img {
     width: 40%;
-    margin-right: 100px;
+    margin-right: 10%;
 }
 
 #q-brainbrown .acercade-img img {
     margin-top: 71.13px;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -1117,7 +1171,7 @@ span {
 #asi-funciona .item-info-num {
     border: 1px solid #E8E8E8;
     width: 285px;
-    height: 236px;
+    height: auto;
     margin-right: 35px;
 }
 
@@ -1151,6 +1205,7 @@ span {
 
 #nuestros-servicios-p2 {
     background: #E6E9ED;
+    width: 100%;
     height: 970px;
 }
 
@@ -1161,13 +1216,13 @@ span {
 #nuestros-servicios-p2 .contenido-nuestros-servicios-p2{
     display: flex;
     justify-content: space-around;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 
 #nuestros-servicios-p2 .item-nuestros-servicios {
-    width: 345px;
+    width: 40%;
     height: 572px;
     margin-right: 23px;
     text-align: center;
@@ -1175,6 +1230,7 @@ span {
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: 0 5px 9px 0 rgba(153, 153, 153, .9);
+    overflow: hidden;
 }
 
 #nuestros-servicios-p2 .item-nuestros-servicios h3 {
@@ -1203,20 +1259,24 @@ span {
     border: 1px solid #6CBB8E;
     border-radius: 5px;
     padding: 13px 30px;
-    margin-left: 68px;
-    margin-right: 68px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #nuestros-servicios-p2 .item-nuestros-servicios img {
-    width: 345px;
-    height: 346px;
+    width: 100%;
+    height: 57%;
+}
+
+#nuestros-servicios-p2 .item-nuestros-servicios:nth-child(3) {
+    margin-right: 0;
 }
 
 #nuestros-servicios-p2 .contenido-txt-p{
     margin-top: 101px;
     margin-bottom: 0;
-    margin-left: 170px;
-    width: 390px;
+    margin-left: 17%;
+    width: 35%;
     float: left;
     text-align: center;
 
@@ -1244,34 +1304,35 @@ span {
     border-radius: 5px;
     float: right;
     margin-top: 130px;
-    margin-right: 200px;
+    margin-right: 13%;
 }
 
 /* Estilos responsive para Acerca de iOS y Android */
-
 @media screen and (max-width: 800px) {
     #acercade .contenido {
         flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #acercade .home-texto {
+        width: 100%;
     }
 
     #acercade .home-texto h1 {
         font-size: 30px;
         line-height: 36px;
         text-align: center;
-        margin-top: -90px;
-        margin-left: -126px;
+        margin: 0;
+        width: 100%;
     }
     #acercade .home-texto p {
         display: none;
     }
 
     #acercade .home-img {
-        margin-left: -126px;
-    }
-
-    #acercade .home-img img {
-        width: 300px;
-        height: 400px;
+        margin: 0;
+        width: 100%;
     }
 
     #cta-acercade {
@@ -1356,10 +1417,9 @@ span {
     }
 
     #nuestros-servicios-p2 .item-nuestros-servicios {
-        width: 286px;
+        width: 100%;
         height: 439px;
         margin-bottom: 34px;
-        margin-left: -75px;
     }
     #nuestros-servicios-p2 .item-nuestros-servicios p {
         font-size: 13px;
@@ -1368,11 +1428,6 @@ span {
     #nuestros-servicios-p2 .item-nuestros-servicios a {
         font-size: 15px;
         padding: 13px 18px;
-    }
-
-    #nuestros-servicios-p2 .item-nuestros-servicios img {
-        width: 265px;
-        height: 230px;
     }
 
     #nuestros-servicios-p2 .contenido-txt-p, .contenido-btn {
@@ -1384,19 +1439,23 @@ span {
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
 
+    #acercade .home-img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #acercade .home-texto h1 {
-        margin-left: -77px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #acercade .home-texto p {
         display: block;
         text-align: center;
-        margin-left: 6px;
-        margin-right: 91px;
-    }
-
-    #acercade .home-img {
-        margin-left: 85px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #cta-acercade {
@@ -1466,11 +1525,21 @@ span {
         font-weight: 500;
     }
 
+    #nuestros-servicios-p2 .contenido-nuestros-servicios-p2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #nuestros-servicios-p2 .item-nuestros-servicios:nth-child(3) {
+        margin-right: auto;
+    }
+
     #nuestros-servicios-p2 .item-nuestros-servicios {
-        width: 535px;
+        width: 77%;
         height: 571px;
         margin: 0;
-        margin-left: -20px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 48px;
     }
 
@@ -1493,7 +1562,15 @@ span {
         display: block !important;
         margin: 0;
         margin-top: 52px;
-        margin-left: 155px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #nuestros-servicios-p2 .contenido-txt-p p {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #nuestros-servicios-p2 .contenido-btn {
@@ -1601,15 +1678,19 @@ input[type=text] {
 
 .contenedor-item-brindamos-4 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 135px;
-    margin-right: 135px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .contenedor-item-brindamos-4 .item-brindamos-4 {
     width: 25%;
+    margin-right: 10px;
     text-align: center;
+}
+
+.contenedor-item-brindamos-4 .item-brindamos-4:nth-child(4) {
+    margin-right: 0;
 }
 
 .contenedor-item-brindamos-4 img {
@@ -1654,8 +1735,8 @@ input[type=text] {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .contenedor-como-valor .item-como-valor {
@@ -1840,6 +1921,7 @@ input[type=text] {
     #brindamos-4 .contenedor-item-brindamos-4 .item-brindamos-4 {
         width: 243px;
         height: 105px;
+        margin-right: 0;
     }
 
 
@@ -1871,11 +1953,12 @@ input[type=text] {
 
     .contenedor-como-valor {
         flex-direction: column;
-        margin-left: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .contenedor-como-valor .item-como-valor {
-        width: 255px;
+        width: 100%;
         height: 170px;
         margin-bottom: 65px;
     }
@@ -1984,7 +2067,6 @@ input[type=text] {
     .contenedor-como-valor {
         flex-direction: row;
         margin: 0;
-        margin-left: -40px;
     }
 
     .contenedor-como-valor .item-como-valor {
@@ -2025,11 +2107,12 @@ input[type=text] {
 /* Reporte-brainbrow */
 
 #reporte-brainbrow {
-    height: 670px;
+    height: auto;
 }
 
 #reporte-brainbrow h1 {
     color: #3B536D;
+    margin-top: 132px;
 }
 
 #reporte-brainbrow p {
@@ -2065,6 +2148,7 @@ input[type=text] {
     padding: 13px;
     width: 190px;
     margin-top: 51px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -2076,8 +2160,7 @@ input[type=text] {
 
 #reporte-brainbrow .home-texto {
     text-align: center;
-    width: 495px;
-    margin-top: 132px;
+    width: 50%;
     margin-left: 66px;
 }
 
@@ -2098,25 +2181,26 @@ input[type=text] {
 }
 
 #reporte-brainbrow .home-img {
+    width: 50%;
     margin-top: 43px;
 }
 
 #reporte-brainbrow .home-img img {
-    width: 598px;
-    height: 592px;
+    width: 100%;
+    height: 100%;
 }
 
 #indicadores-incluidos {
     width: 100%;
-    height: 815px;
+    height: auto;
     background: #E6E9ED;
 }
 
-#indicadores-incluidos .contenedor img {
+#indicadores-incluidos .contenedor .t-margen img {
     width: 133px;
     height: 50px;
     margin-top: -33px;
-    margin-left: 245px;
+    margin-left: 24%;
 }
 
 #indicadores-incluidos .contenedor-items-indicadores {
@@ -2153,7 +2237,6 @@ input[type=text] {
 
 #indicadores-incluidos .item-indicadores ul li:nth-child(1) {
     margin-bottom: 17px;
-    margin-left: -245px;
 }
 
 #indicadores-incluidos .item-indicadores ul li:nth-child(2) {
@@ -2197,6 +2280,11 @@ input[type=text] {
     margin-left: 66px;
 }
 
+#indicadores-incluidos .mejores-decisiones .p-izquierda {
+    width: 49%;
+}
+
+
 #indicadores-incluidos .mejores-decisiones .p-izquierda p{
     color: #5F9FE5;
     margin: 0;
@@ -2207,24 +2295,25 @@ input[type=text] {
 #indicadores-incluidos .mejores-decisiones h2 {
     font-size: 40px;
     font-weight: 700;
-    width: 429px;
-    height: 94px;
+    width: 100%;
     margin: 0;
     text-align: left;
 }
 
+#indicadores-incluidos .mejores-decisiones .p-derecha {
+    width: 44%;
+}
+
 #indicadores-incluidos .mejores-decisiones .p-derecha p{
     color: #747474;
-    width: 519px;
-    height: 94px;
+    width: 100%;
     margin: 0;
     margin-top: 117px;
-    margin-left: 89px;
 }
 
 #adecuamos-necesidades {
     width: 100%;
-    height: 1080px;
+    height: auto;
     background: #3B536D;
     text-align: center;
 }
@@ -2246,6 +2335,7 @@ input[type=text] {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 68px;
+    padding-bottom: 50px;
 }
 
 #adecuamos-necesidades .item-reportes-1 {
@@ -2475,6 +2565,10 @@ input[type=text] {
         margin: 0;
     }
 
+    #reporte-brainbrow h1 {
+        margin-top: 0;
+    }
+
     #reporte-brainbrow .home-texto h1 {
         font-size: 30px;
     }
@@ -2512,7 +2606,7 @@ input[type=text] {
         position: absolute;
         width: 327px;
         height: 323px;
-        margin-top: -580px;
+        margin-top: -620px;
     }
 
     #indicadores-incluidos  {
@@ -2663,10 +2757,6 @@ input[type=text] {
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
 
-    #reporte-brainbrow {
-        padding-bottom: 120px;
-    }
-
     #reporte-brainbrow .home-texto h1 {
         font-size: 40px;
     }
@@ -2683,7 +2773,7 @@ input[type=text] {
     #reporte-brainbrow .home-img img {
         width: 420px;
         height: 380px;
-        margin-top: -610px;
+        margin-top: -670px;
         margin-left: 120px;
         margin-right: 120px
     }
@@ -2895,9 +2985,7 @@ input[type=text] {
 }
 
 #cumplir-sueños .home-img img {
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 900px;
+    width: 100%;
     height: 370px;
     margin-top: 25px;
 }
@@ -2976,7 +3064,7 @@ input[type=text] {
 
 #nuestros-servicios-hipoteca {
   background: #3B536D;
-  height: 1263px;
+  height: auto;
   text-align: center;
 }
 
@@ -3091,8 +3179,8 @@ input[type=text] {
 #dudas .contenido-txt-p-2 {
     margin-top: 72px;
     margin-bottom: 0;
-    margin-left: 170px;
-    width: 390px;
+    margin-left: 17%;
+    width: 30%;
     float: left;
     text-align: center;
 }
@@ -3108,7 +3196,7 @@ input[type=text] {
     border-radius: 5px;
     float: right;
     margin-top: 100px;
-    margin-right: 200px;
+    margin-right: 15%;
 }
 
 /* Estilos resposive de Hipoteca para iOS y Android */
@@ -5037,7 +5125,7 @@ input[type=text] {
 
 #soporte .contactar-izq {
     margin-top: 90px;
-    margin-left: 266px;
+    margin-left: 26%;
 }
 
 #soporte .contactar-izq h4 {
@@ -5055,7 +5143,7 @@ input[type=text] {
 
 #soporte .contactar-der {
     margin-top: -70px;
-    margin-left: 760px;
+    margin-left: 76%;
 }
 
 #soporte .contactar-der a {
@@ -5204,10 +5292,8 @@ input[type=text] {
 }
 
 #soporte-ayuda .contenedor-info {
-    width: 994px;
+    width: 78%;
     height: 750px;
-    margin-left: auto;
-    margin-right: auto;
     position: absolute;
     margin-top: -300px;
     margin-left: 79px;
@@ -5263,6 +5349,10 @@ input[type=text] {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+#soporte-ayuda .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
 .items-info .atras {
     margin-top: 27px;
     margin-left: 10px;
@@ -5284,7 +5374,7 @@ input[type=text] {
 
 .contactar-izq-ayuda {
     padding-top: 460px;
-    margin-left: 250px;
+    margin-left: 25%;
 }
 
 .contactar-izq-ayuda h4 {
@@ -5300,7 +5390,7 @@ input[type=text] {
 
 .contactar-der-ayuda {
     margin-top: -70px;
-    margin-left: 720px
+    margin-left: 72%;
 }
 
 .contactar-der-ayuda a {
@@ -5320,7 +5410,7 @@ input[type=text] {
 
 @media screen and (max-width: 800px) {
     #soporte-ayuda { 
-        height: 900px;
+        height: auto;
     }
 
     #ayuda-ayuda h1 {
@@ -5333,7 +5423,7 @@ input[type=text] {
 
     #soporte-ayuda .contenedor-info {
         width: 325px;
-        height: 900px;
+        height: auto;
         margin-left: 5px;
     }
 
@@ -5352,7 +5442,6 @@ input[type=text] {
     }
 
     .contactar-izq-ayuda {
-        padding-top: 600px;
         margin-left: 15px;
     }
 
@@ -5364,7 +5453,8 @@ input[type=text] {
 
     .contactar-der-ayuda {
         margin-top: 0px;
-        margin-left: 70px;
+        margin-left: 60px;
+        padding-bottom: 20px;
     }
 
 }
@@ -5386,7 +5476,7 @@ input[type=text] {
 
     #soporte-ayuda .contenedor-info {
         width: 720px;
-        height: 770px;
+        height: auto;
         margin-left: -15px;
         margin-right: 0;
     }
@@ -5410,14 +5500,14 @@ input[type=text] {
 /* Iniciar sesion */
 
 #iniciar-sesion {
-    height: 800px;
+    height: auto;
 }
 
 #iniciar-sesion .contenido {
     text-align: center;
     margin-top: 60px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #iniciar-sesion .contenido h1 {
@@ -5465,17 +5555,23 @@ input[type=text] {
 
 #iniciar-sesion .redes {
     margin-top: 50px;
-    padding-top: 20px;
-    border-top: 1px solid #707070;
     text-align: center;
     color: #707070;
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #iniciar-sesion .redes p {
     margin-bottom: 40px;
+}
+
+.borde-mediano {
+    border-top: 1px solid #707070;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
 .fb {
@@ -5486,6 +5582,7 @@ input[type=text] {
     font-weight: 500;
     text-decoration: none;
     margin-right: 35px;
+    width: 26%;
 }
 
 .fab {
@@ -5502,6 +5599,7 @@ input[type=text] {
     border-radius: 4px;
     font-weight: 500;
     text-decoration: none;
+    width: 26%;
 }
 
 /* Responsive de Iniciar sesión para iOS y Android */
@@ -5537,6 +5635,10 @@ input[type=text] {
 
     .google {
         width: 90%;
+    }
+
+    .borde-mediano {
+        width: 100%;
     }
 }
 
@@ -5649,6 +5751,7 @@ input[type=text] {
     float: left;
     width: 42%;
     height: 350px;
+    margin-right: 20px;
 }
   
 /* Style the buttons that are used to open the tab content */
@@ -5686,7 +5789,7 @@ input[type=text] {
     display: none;
     text-align: center;
     width: 57%;
-    margin-left: 367px;
+    margin-left: 42%;
 }
 
 #pasa .tabcontent img {
@@ -5712,7 +5815,7 @@ input[type=text] {
 
 #pasa .tabcontent p {
       color: #747474;
-      width: 363px;
+      width: 100%;
       margin-top: 0;
       margin-left: auto;
       margin-right: auto;
@@ -5745,11 +5848,11 @@ input[type=text] {
 .up {
      position: absolute;
      margin-top: -49px;
-     margin-left: 247px;
+     margin-left: 20%;
 }
 
 #coberturas {
-     height: 1000px;
+     height: auto;
      background: #3B536D;
 }
 
@@ -5764,6 +5867,7 @@ input[type=text] {
      margin-top: 40px;
      margin-left: 118px;
      margin-right: 56px;
+     padding-bottom: 40px;
 }
 
 #coberturas .item-coberturas {
@@ -6014,7 +6118,7 @@ input[type=text] {
 
 #minutos {
     width: 100%;
-    height: 502px;
+    height: 520px;
     background: #E6E9ED;
 
 }
@@ -6028,6 +6132,7 @@ input[type=text] {
     width: 66%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 #minutos .item-minutos {
@@ -6108,6 +6213,10 @@ input[type=text] {
     width: 100%;
 }
 
+#asistencia .lados .txt-izq {
+    width: 50%;
+}
+
 #asistencia .lados .txt-izq h3 {
     font-size: 35px;
     font-weight: 500;
@@ -6120,6 +6229,7 @@ input[type=text] {
 }
 
 #asistencia .lados .txt-der {
+    width: 50%;
     margin-top: 97px;
     margin-left: 20%;
 }
@@ -6243,7 +6353,6 @@ input[type=text] {
 
     #coberturas {
         width: 100%;
-        height: 1400px;
     }
 
     .up {
@@ -6365,6 +6474,10 @@ input[type=text] {
         flex-direction: column;
     }
 
+    #asistencia .lados .txt-izq {
+        width: 100%;
+    }
+
     #asistencia .lados .txt-izq h3 {
         font-size: 20px;
         text-align: left;
@@ -6377,6 +6490,7 @@ input[type=text] {
     #asistencia .lados .txt-der {
         margin-top: 0;
         margin-left: 0;
+        width: 100%;
     }
 
     #descubre h2 {
@@ -6580,11 +6694,6 @@ input[type=text] {
         height: 900px !important;
     }
 
-}
-
-main.blur{
-    filter: blur(3px);
-    transform: scale(0.95);
 }
 
 .material-icons.md-20 { 

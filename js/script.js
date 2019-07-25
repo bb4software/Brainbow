@@ -32,7 +32,7 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
-function openCity(evt, cityName) {
+function openProblem(evt, problemName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
@@ -49,7 +49,7 @@ function openCity(evt, cityName) {
   }
 
   // Show the current tab, and add an "active" class to the link that opened the tab
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(problemName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 
